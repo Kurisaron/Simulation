@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simulation\\module.simulation.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\x64\\simulationeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simulation\\definitions.simulation.h",
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\unrealeditor\\inc\\simulation\\uht\\simulation.init.gen.cpp",
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\unrealeditor\\inc\\simulation\\uht\\simulationplayercontroller.gen.cpp",
+            "d:\\github\\simulation\\simulation\\source\\simulation\\public\\simulationplayercontroller.h",
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\unrealeditor\\inc\\simulation\\uht\\simulationplayercontroller.generated.h",
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\unrealeditor\\inc\\simulation\\uht\\vrcontroller.gen.cpp",
+            "d:\\github\\simulation\\simulation\\source\\simulation\\public\\vrcontroller.h",
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\unrealeditor\\inc\\simulation\\uht\\vrcontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

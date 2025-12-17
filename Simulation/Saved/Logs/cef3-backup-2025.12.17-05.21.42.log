@@ -1,0 +1,901 @@
+[17784:3552:1216/161938.105:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[17784:3552:1216/161941.968:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[17784:3552:1216/162030.421:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[17784:3552:1216/162033.577:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[9140:2508:1216/171738.415:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/171738.416:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/171738.416:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/171738.416:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/171738.499:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/171738.500:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/171738.551:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/171738.551:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/171738.551:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/172017.438:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/172017.438:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172017.439:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172017.439:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172017.526:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172017.526:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/172017.570:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172017.570:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172017.570:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/172258.461:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/172258.463:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172258.463:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172258.463:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172258.521:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172258.521:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/172258.566:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172258.566:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172258.566:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/172518.809:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=ChoKCGNocm9taXVtEg4xMjguMC42NjEzLjEzOBoMCAUQASIEIAEgAigBGgwIARABIgQgASACKAEaDAgDEAEiBCABIAIoARoMCAcQASIEIAEgAigBGgwIARAIIgQgASACKAQaDAgPEAEiBCABIAIoARoMCAkQASIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=dummytoken
+[9140:2508:1216/172518.809:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAHAABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172518.810:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172518.810:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAQQABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172519.494:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172519.538:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172520.142:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172520.142:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/172520.142:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172520.142:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/172530.810:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/172530.812:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172530.812:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172530.812:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172531.502:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172531.548:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172532.145:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172532.145:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/172532.145:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172532.145:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/172808.168:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/172808.168:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172808.170:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172808.170:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/172808.235:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172808.235:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/172808.283:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172808.283:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/172808.283:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/173103.187:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/173103.188:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173103.188:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173103.188:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173103.315:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173103.315:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/173103.361:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173103.361:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173103.361:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/173401.214:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/173401.214:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173401.214:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173401.214:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173401.296:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173401.297:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/173401.341:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173401.341:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173401.341:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/173637.900:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/173637.901:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173637.901:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173637.901:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173637.964:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173637.964:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/173638.008:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173638.008:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173638.008:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/173913.918:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/173913.919:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173913.920:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173913.920:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/173914.007:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173914.008:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/173914.056:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173914.056:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/173914.056:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/174211.612:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/174211.612:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/174211.613:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/174211.613:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/174211.698:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/174211.698:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/174211.741:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/174211.741:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/174211.741:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/174510.961:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/174510.961:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/174510.962:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/174510.962:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/174511.043:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/174511.043:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/174511.087:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/174511.087:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/174511.087:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/174803.649:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/174803.649:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/174803.649:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/174803.649:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/174803.735:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/174803.735:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/174803.779:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/174803.779:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/174803.779:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/175050.673:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/175050.673:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175050.674:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175050.674:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175050.740:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175050.741:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/175050.789:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175050.789:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175050.789:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/175350.357:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/175350.358:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175350.358:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175350.358:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175350.424:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175350.425:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/175350.472:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175350.472:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175350.472:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/175637.375:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/175637.375:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175637.375:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175637.375:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175638.066:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175638.113:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175638.709:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175638.709:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/175638.710:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175638.710:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/175936.401:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/175936.402:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175936.402:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175936.402:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/175936.505:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175936.505:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/175936.555:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175936.555:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/175936.555:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/180224.747:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/180224.748:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/180224.748:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/180224.749:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/180224.818:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/180224.818:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/180224.862:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/180224.862:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/180224.862:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/180456.767:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/180456.767:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/180456.767:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/180456.767:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/180456.930:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/180456.930:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/180457.018:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/180457.018:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/180457.018:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/180631.108:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: http://192.168.0.81:49628/dd.xml
+[17784:20832:1216/180633.778:VERBOSE1:cast_socket.cc(227)] [192.168.0.81:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[17784:20832:1216/180633.778:VERBOSE1:cast_socket.cc(391)] [192.168.0.81:8009, auth=SSL_VERIFIED] DoTcpConnect
+[17784:20832:1216/180636.442:VERBOSE1:cast_socket.cc(405)] [192.168.0.81:8009, auth=SSL_VERIFIED] DoTcpConnectComplete: -102
+[17784:20832:1216/180636.442:VERBOSE1:cast_socket.cc(665)] [192.168.0.81:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_ERROR
+[17784:20832:1216/180636.442:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_ERROR)
+[17784:20832:1216/180636.442:VERBOSE1:cast_socket.cc(627)] [192.168.0.81:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[17784:20832:1216/180636.442:VERBOSE1:cast_socket.cc(227)] [192.168.0.81:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[17784:20832:1216/180636.442:VERBOSE1:cast_socket.cc(391)] [192.168.0.81:8009, auth=SSL_VERIFIED] DoTcpConnect
+[17784:20832:1216/180639.109:VERBOSE1:cast_socket.cc(405)] [192.168.0.81:8009, auth=SSL_VERIFIED] DoTcpConnectComplete: -102
+[17784:20832:1216/180639.109:VERBOSE1:cast_socket.cc(665)] [192.168.0.81:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_ERROR
+[17784:20832:1216/180639.109:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_ERROR)
+[17784:20832:1216/180639.109:VERBOSE1:cast_socket.cc(627)] [192.168.0.81:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[17784:20832:1216/180653.697:VERBOSE1:cast_socket.cc(227)] [192.168.0.81:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[17784:20832:1216/180653.697:VERBOSE1:cast_socket.cc(391)] [192.168.0.81:8009, auth=SSL_VERIFIED] DoTcpConnect
+[17784:20832:1216/180656.114:VERBOSE1:cast_socket.cc(405)] [192.168.0.81:8009, auth=SSL_VERIFIED] DoTcpConnectComplete: -102
+[17784:20832:1216/180656.114:VERBOSE1:cast_socket.cc(665)] [192.168.0.81:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_ERROR
+[17784:20832:1216/180656.114:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_ERROR)
+[17784:20832:1216/180656.114:VERBOSE1:cast_socket.cc(627)] [192.168.0.81:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[17784:20832:1216/180710.548:VERBOSE1:cast_socket.cc(227)] [192.168.0.81:8009, auth=SSL_VERIFIED] Connect readyState = ReadyState::NONE
+[17784:20832:1216/180710.548:VERBOSE1:cast_socket.cc(391)] [192.168.0.81:8009, auth=SSL_VERIFIED] DoTcpConnect
+[17784:20832:1216/180713.115:VERBOSE1:cast_socket.cc(405)] [192.168.0.81:8009, auth=SSL_VERIFIED] DoTcpConnectComplete: -102
+[17784:20832:1216/180713.115:VERBOSE1:cast_socket.cc(665)] [192.168.0.81:8009, auth=SSL_VERIFIED] SetErrorState ChannelError::CONNECT_ERROR
+[17784:20832:1216/180713.115:VERBOSE1:cast_socket.cc(587)] DoConnectCallback (error_state = ChannelError::CONNECT_ERROR)
+[17784:20832:1216/180713.115:VERBOSE1:cast_socket.cc(627)] [192.168.0.81:8009, auth=SSL_VERIFIED] Close ReadyState = ReadyState::CONNECTING
+[9140:2508:1216/180729.118:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/180729.119:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/180729.119:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/180729.119:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/180729.204:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/180729.205:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/180729.252:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/180729.252:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/180729.252:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/181021.805:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/181021.805:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181021.805:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181021.805:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181021.879:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181021.880:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/181021.925:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181021.926:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181021.926:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/181304.831:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/181304.832:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181304.832:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181304.832:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181304.887:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181304.887:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/181304.962:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181304.963:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181304.963:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/181538.180:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/181538.180:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181538.180:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181538.180:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181538.244:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181538.245:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/181538.292:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181538.292:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181538.292:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/181837.867:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/181837.867:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181837.867:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181837.867:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/181837.940:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181837.941:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/181837.988:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181837.988:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/181837.988:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/182113.226:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/182113.226:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182113.226:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182113.226:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182113.308:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182113.309:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/182113.355:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182113.355:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182113.355:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/182351.576:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/182351.576:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182351.576:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182351.576:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182351.656:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182351.657:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/182351.704:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182351.704:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182351.704:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/182647.463:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/182647.463:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182647.463:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182647.463:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182648.151:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182648.197:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182648.794:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182648.795:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/182648.795:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182648.795:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/182737.132:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=ChoKCGNocm9taXVtEg4xMjguMC42NjEzLjEzOBoMCAUQASIEIAEgAigBGgwIARABIgQgASACKAEaDAgDEAEiBCABIAIoARoMCAcQASIEIAEgAigBGgwIARAIIgQgASACKAQaDAgPEAEiBCABIAIoARoMCAkQASIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=dummytoken
+[9140:2508:1216/182737.133:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAHAABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182737.133:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182737.133:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAQQABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182737.828:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182737.874:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182738.466:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182738.466:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/182738.466:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182738.466:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/182942.141:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/182942.142:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182942.142:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182942.142:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/182942.224:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182942.225:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/182942.270:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182942.270:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/182942.270:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/183213.927:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/183213.927:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/183213.928:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/183213.928:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/183214.015:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/183214.016:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/183214.086:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/183214.086:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/183214.086:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/183452.612:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/183452.612:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/183452.612:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/183452.612:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/183452.706:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/183452.707:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/183452.750:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/183452.750:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/183452.750:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/183735.296:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/183735.297:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/183735.297:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/183735.298:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/183735.383:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/183735.383:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/183735.429:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/183735.429:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/183735.430:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/184018.649:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/184018.650:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184018.650:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184018.650:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184018.714:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184018.714:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/184018.760:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184018.760:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184018.760:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/184302.669:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/184302.670:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184302.670:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184302.670:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184302.758:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184302.758:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/184302.800:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184302.800:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184302.800:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/184544.024:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/184544.025:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184544.025:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184544.025:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184544.096:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184544.096:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/184544.141:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184544.141:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184544.141:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/184833.709:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/184833.710:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184833.710:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184833.710:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/184833.770:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184833.772:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/184833.815:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184833.815:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/184833.815:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/185114.056:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/185114.057:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185114.057:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185114.057:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185114.137:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185114.137:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/185114.190:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185114.190:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185114.191:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/185403.411:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/185403.413:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185403.413:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185403.413:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185403.496:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185403.496:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/185403.541:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185403.541:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185403.541:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/185642.427:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/185642.428:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185642.428:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185642.428:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185642.506:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185642.507:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/185642.550:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185642.550:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185642.550:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/185928.448:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/185928.449:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185928.449:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185928.449:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/185929.137:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185929.178:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185929.781:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185929.782:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/185929.782:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/185929.782:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/190206.464:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/190206.465:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/190206.465:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/190206.465:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/190206.538:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/190206.539:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/190206.583:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/190206.583:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/190206.583:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/190442.816:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/190442.817:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/190442.817:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/190442.817:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/190442.908:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/190442.908:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/190442.955:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/190442.956:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/190442.956:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/190734.166:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/190734.166:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/190734.166:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/190734.166:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/190734.234:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/190734.234:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/190734.282:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/190734.282:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/190734.282:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/191008.510:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/191008.511:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191008.511:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191008.511:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191008.592:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191008.593:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/191008.643:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191008.643:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191008.643:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/191258.530:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/191258.530:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191258.531:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191258.531:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191258.620:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191258.621:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/191258.668:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191258.668:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191258.668:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/191545.552:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/191545.553:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191545.553:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191545.553:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191545.620:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191545.621:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/191545.665:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191545.665:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191545.665:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[17784:3552:1216/191621.850:VERBOSE1:device_event_log_impl.cc(198)] [19:16:21.830] Display: EVENT: screen_win.cc:893 Displays updated, count: 3
+[17784:3552:1216/191621.850:VERBOSE1:device_event_log_impl.cc(198)] [19:16:21.849] Display: EVENT: screen_win.cc:895 Display[3284440833] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/191621.850:VERBOSE1:device_event_log_impl.cc(198)] [19:16:21.849] Display: EVENT: screen_win.cc:895 Display[3498525760] bounds=[1920,360 1280x720], workarea=[1920,360 1280x672], scale=1.5, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/191621.850:VERBOSE1:device_event_log_impl.cc(198)] [19:16:21.849] Display: EVENT: screen_win.cc:895 Display[4185626470] bounds=[-1360,134 1360x768], workarea=[-1360,134 1360x720], scale=1, rotation=0, panel_rotation=0 external detected
+[9140:2508:1216/191839.943:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/191839.944:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191839.944:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191839.944:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/191840.003:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191840.003:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/191840.045:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191840.045:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/191840.045:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[17784:3552:1216/191949.229:VERBOSE1:device_event_log_impl.cc(198)] [19:19:49.229] Display: EVENT: screen_win.cc:893 Displays updated, count: 3
+[17784:3552:1216/191949.229:VERBOSE1:device_event_log_impl.cc(198)] [19:19:49.229] Display: EVENT: screen_win.cc:895 Display[3284440833] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/191949.229:VERBOSE1:device_event_log_impl.cc(198)] [19:19:49.229] Display: EVENT: screen_win.cc:895 Display[3498525760] bounds=[1920,360 1280x720], workarea=[1920,360 1280x672], scale=1.5, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/191949.229:VERBOSE1:device_event_log_impl.cc(198)] [19:19:49.229] Display: EVENT: screen_win.cc:895 Display[4185626470] bounds=[-1360,134 1360x768], workarea=[-1360,134 1360x720], scale=1, rotation=0, panel_rotation=0 external detected
+[9140:2508:1216/192138.595:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/192138.595:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/192138.596:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/192138.596:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/192138.673:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/192138.673:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/192138.718:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/192138.718:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/192138.718:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/192420.944:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/192420.944:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/192420.944:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/192420.945:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/192421.038:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/192421.039:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/192421.085:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/192421.085:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/192421.085:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/192705.633:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/192705.634:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/192705.634:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/192705.634:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/192705.703:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/192705.703:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/192705.748:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/192705.748:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/192705.748:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[17784:3552:1216/192850.096:VERBOSE1:device_event_log_impl.cc(198)] [19:28:50.096] Display: EVENT: screen_win.cc:893 Displays updated, count: 3
+[17784:3552:1216/192850.096:VERBOSE1:device_event_log_impl.cc(198)] [19:28:50.096] Display: EVENT: screen_win.cc:895 Display[3284440833] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/192850.096:VERBOSE1:device_event_log_impl.cc(198)] [19:28:50.096] Display: EVENT: screen_win.cc:895 Display[3498525760] bounds=[1920,360 1280x720], workarea=[1920,360 1280x672], scale=1.5, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/192850.096:VERBOSE1:device_event_log_impl.cc(198)] [19:28:50.096] Display: EVENT: screen_win.cc:895 Display[4185626470] bounds=[-1360,134 1360x768], workarea=[-1360,134 1360x720], scale=1, rotation=0, panel_rotation=0 external detected
+[9140:2508:1216/193004.167:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/193004.168:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/193004.168:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/193004.168:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/193004.260:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/193004.276:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/193004.276:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/193004.306:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/193004.306:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/193004.306:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[17784:20832:1216/193213.826:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=000063DC000CAD40}, {new_limit=78})
+[17784:20832:1216/193214.826:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=000063DC000CAD40}, {new_limit=80})
+[17784:20832:1216/193215.825:VERBOSE1:media_stream_manager.cc(1533)] MSPL::OnSpeedLimitChange({this=000063DC000CAD40}, {new_limit=100})
+[9140:2508:1216/193245.076:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/193245.077:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/193245.077:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/193245.077:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/193245.158:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/193245.159:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/193245.201:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/193245.201:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/193245.201:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[17784:3552:1216/193420.118:VERBOSE1:device_event_log_impl.cc(198)] [19:34:20.117] Display: EVENT: screen_win.cc:893 Displays updated, count: 3
+[17784:3552:1216/193420.118:VERBOSE1:device_event_log_impl.cc(198)] [19:34:20.117] Display: EVENT: screen_win.cc:895 Display[3284440833] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/193420.118:VERBOSE1:device_event_log_impl.cc(198)] [19:34:20.117] Display: EVENT: screen_win.cc:895 Display[3498525760] bounds=[1920,360 1280x720], workarea=[1920,360 1280x672], scale=1.5, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/193420.118:VERBOSE1:device_event_log_impl.cc(198)] [19:34:20.117] Display: EVENT: screen_win.cc:895 Display[4185626470] bounds=[-1360,134 1360x768], workarea=[-1360,134 1360x720], scale=1, rotation=0, panel_rotation=0 external detected
+[9140:2508:1216/193534.390:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/193534.391:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/193534.391:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/193534.391:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/193534.472:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/193534.473:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/193534.518:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/193534.518:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/193534.518:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[17784:3552:1216/193738.988:VERBOSE1:device_event_log_impl.cc(198)] [19:37:38.988] Display: EVENT: screen_win.cc:893 Displays updated, count: 3
+[17784:3552:1216/193738.989:VERBOSE1:device_event_log_impl.cc(198)] [19:37:38.988] Display: EVENT: screen_win.cc:895 Display[3284440833] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/193738.989:VERBOSE1:device_event_log_impl.cc(198)] [19:37:38.988] Display: EVENT: screen_win.cc:895 Display[3498525760] bounds=[1920,360 1280x720], workarea=[1920,360 1280x672], scale=1.5, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/193738.989:VERBOSE1:device_event_log_impl.cc(198)] [19:37:38.988] Display: EVENT: screen_win.cc:895 Display[4185626470] bounds=[-1360,134 1360x768], workarea=[-1360,134 1360x720], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/193922.789:VERBOSE1:device_event_log_impl.cc(198)] [19:39:22.788] Display: EVENT: screen_win.cc:893 Displays updated, count: 3
+[17784:3552:1216/193922.789:VERBOSE1:device_event_log_impl.cc(198)] [19:39:22.788] Display: EVENT: screen_win.cc:895 Display[3284440833] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/193922.789:VERBOSE1:device_event_log_impl.cc(198)] [19:39:22.788] Display: EVENT: screen_win.cc:895 Display[3498525760] bounds=[1920,360 1280x720], workarea=[1920,360 1280x672], scale=1.5, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/193922.789:VERBOSE1:device_event_log_impl.cc(198)] [19:39:22.788] Display: EVENT: screen_win.cc:895 Display[4185626470] bounds=[-1360,134 1360x768], workarea=[-1360,134 1360x720], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/194342.527:VERBOSE1:device_event_log_impl.cc(198)] [19:43:42.528] Display: EVENT: screen_win.cc:893 Displays updated, count: 3
+[17784:3552:1216/194342.527:VERBOSE1:device_event_log_impl.cc(198)] [19:43:42.528] Display: EVENT: screen_win.cc:895 Display[3284440833] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/194342.527:VERBOSE1:device_event_log_impl.cc(198)] [19:43:42.528] Display: EVENT: screen_win.cc:895 Display[3498525760] bounds=[1920,360 1280x720], workarea=[1920,360 1280x672], scale=1.5, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/194342.527:VERBOSE1:device_event_log_impl.cc(198)] [19:43:42.528] Display: EVENT: screen_win.cc:895 Display[4185626470] bounds=[-1360,134 1360x768], workarea=[-1360,134 1360x720], scale=1, rotation=0, panel_rotation=0 external detected
+[9140:2508:1216/194358.181:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/194358.182:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/194358.182:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/194358.184:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/194358.260:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/194358.261:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/194358.305:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/194358.305:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/194358.305:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/194642.871:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/194642.872:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/194642.872:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/194642.872:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/194642.934:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/194642.934:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/194642.977:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/194642.977:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/194642.977:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/194914.897:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/194914.898:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/194914.898:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/194914.898:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/194914.979:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/194914.980:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/194915.022:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/194915.022:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/194915.022:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/195214.593:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/195214.594:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/195214.594:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/195214.594:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/195214.664:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/195214.664:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/195214.711:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/195214.711:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/195214.711:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/195500.942:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/195500.942:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/195500.942:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/195500.942:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/195501.024:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/195501.025:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/195501.068:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/195501.068:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/195501.068:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/195744.630:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/195744.630:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/195744.630:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/195744.630:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/195744.717:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/195744.717:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/195744.764:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/195744.764:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/195744.764:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/200023.647:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/200023.648:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200023.648:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200023.648:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200024.005:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200024.049:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200024.647:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200024.647:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/200024.647:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200024.647:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/200310.005:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/200310.005:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200310.006:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200310.006:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200310.097:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200310.097:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/200310.143:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200310.143:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200310.143:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/200607.691:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/200607.691:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200607.691:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200607.691:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200607.765:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200607.765:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/200607.810:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200607.810:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200607.810:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/200858.038:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/200858.039:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200858.039:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200858.039:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/200858.123:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200858.123:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/200858.170:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200858.170:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/200858.170:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/201148.724:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/201148.725:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/201148.725:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/201148.725:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/201148.848:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/201148.849:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/201148.893:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/201148.893:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/201148.893:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/201437.752:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/201437.753:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/201437.753:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/201437.753:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/201437.865:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/201437.866:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/201437.912:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/201437.912:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/201437.913:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/201720.450:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/201720.451:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/201720.451:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/201720.451:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/201720.554:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/201720.555:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/201720.598:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/201720.598:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/201720.599:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/202011.126:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/202011.126:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202011.127:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202011.127:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202011.233:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202011.234:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/202011.279:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202011.279:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202011.279:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/202246.147:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/202246.147:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202246.147:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202246.147:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202246.216:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202246.217:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/202246.265:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202246.265:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202246.265:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/202528.831:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/202528.832:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202528.832:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202528.832:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202528.907:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202528.907:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/202528.952:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202528.953:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202528.953:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/202808.855:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/202808.856:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202808.856:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202808.856:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/202808.922:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202808.922:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/202808.973:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202808.973:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/202808.973:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/203044.206:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/203044.207:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203044.207:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203044.207:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203044.898:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203044.945:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203045.539:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203045.539:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/203045.539:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203045.539:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/203340.229:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/203340.229:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203340.230:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203340.230:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203340.299:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203340.299:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/203340.342:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203340.342:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203340.342:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/203638.580:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/203638.580:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203638.581:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203638.581:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203638.668:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203638.668:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/203638.712:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203638.712:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203638.712:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/203913.928:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/203913.928:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203913.928:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203913.929:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/203914.001:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203914.002:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/203914.063:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203914.065:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/203914.065:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/204144.613:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/204144.613:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/204144.613:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/204144.614:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/204144.705:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/204144.706:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/204144.748:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/204144.748:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/204144.748:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/204437.630:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/204437.630:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/204437.630:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/204437.631:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/204437.762:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/204437.762:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/204437.807:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/204437.807:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/204437.807:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/204732.982:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/204732.982:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/204732.982:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/204732.982:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/204733.076:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/204733.076:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/204733.120:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/204733.120:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/204733.120:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/205016.004:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/205016.005:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205016.005:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205016.005:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205016.091:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205016.092:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/205016.138:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205016.138:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205016.138:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/205305.027:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/205305.027:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205305.027:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205305.027:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205305.108:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205305.109:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/205305.153:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205305.153:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205305.153:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/205555.043:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/205555.043:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205555.043:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205555.043:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205555.118:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205555.120:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/205555.163:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205555.164:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205555.164:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/205843.067:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/205843.068:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205843.068:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205843.068:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/205843.140:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205843.140:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/205843.185:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205843.185:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/205843.185:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/210116.751:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=ChoKCGNocm9taXVtEg4xMjguMC42NjEzLjEzOBoMCAUQASIEIAEgAigBGgwIARABIgQgASACKAEaDAgDEAEiBCABIAIoARoMCAcQASIEIAEgAigBGgwIARAIIgQgASACKAQaDAgPEAEiBCABIAIoARoMCAkQASIEIAEgAigBIgIIAQ==&$ct=application/x-protobuf&key=dummytoken
+[9140:2508:1216/210116.752:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAHAABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210116.752:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210116.752:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAQQABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210117.447:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210117.496:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210118.084:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210118.084:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/210118.084:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210118.084:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/210125.752:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/210125.753:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210125.753:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210125.753:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210126.448:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210126.492:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210127.085:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210127.085:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/210127.087:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210127.087:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/210403.106:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/210403.106:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210403.107:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210403.107:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210403.201:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210403.201:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/210403.257:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210403.257:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210403.257:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/210649.794:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/210649.795:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210649.796:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210649.796:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210649.941:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210649.941:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/210649.990:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210649.990:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210649.990:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/210936.144:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/210936.145:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210936.145:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210936.145:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/210936.204:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210936.204:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/210936.247:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210936.247:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/210936.247:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/211232.165:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/211232.165:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/211232.165:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/211232.165:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/211232.232:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/211232.232:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/211232.278:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/211232.279:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/211232.279:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/211517.850:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/211517.850:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/211517.851:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/211517.851:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/211517.916:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/211517.917:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/211517.963:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/211517.963:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/211517.963:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/211751.862:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/211751.862:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/211751.863:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/211751.863:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/211751.938:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/211751.938:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/211751.982:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/211751.982:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/211751.982:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[9140:2508:1216/212042.213:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken
+[9140:2508:1216/212042.214:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAAcAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/212042.214:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/212042.214:VERBOSE1:network_delegate.cc(36)] NetworkDelegate::NotifyBeforeURLRequest: https://doh-01.spectrum.com/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAABBAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[9140:2508:1216/212042.283:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/212042.284:VERBOSE1:tls_handshaker.cc(126)] TlsClient: SSL_do_handshake returned when entering early data. After retry, rv=-1, SSL_in_early_data=1
+[9140:2508:1216/212042.332:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/212042.332:VERBOSE1:tls_handshaker.cc(105)] TlsClient: Continuing handshake
+[9140:2508:1216/212042.332:VERBOSE1:tls_client_handshaker.cc(528)] Client: handshake finished
+[17784:3552:1216/212127.072:VERBOSE1:device_event_log_impl.cc(198)] [21:21:27.071] Display: EVENT: screen_win.cc:893 Displays updated, count: 3
+[17784:3552:1216/212127.072:VERBOSE1:device_event_log_impl.cc(198)] [21:21:27.072] Display: EVENT: screen_win.cc:895 Display[3284440833] bounds=[0,0 1920x1080], workarea=[0,0 1920x1032], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/212127.072:VERBOSE1:device_event_log_impl.cc(198)] [21:21:27.072] Display: EVENT: screen_win.cc:895 Display[3498525760] bounds=[1920,360 1280x720], workarea=[1920,360 1280x672], scale=1.5, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/212127.072:VERBOSE1:device_event_log_impl.cc(198)] [21:21:27.072] Display: EVENT: screen_win.cc:895 Display[4185626470] bounds=[-1360,134 1360x768], workarea=[-1360,134 1360x720], scale=1, rotation=0, panel_rotation=0 external detected
+[17784:3552:1216/212141.419:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(312)] MutablePO2TS::RefreshTokenIsAvailable
+[17784:3552:1216/212141.617:VERBOSE1:frame_host_impl.cc(515)] frame 5-1EA8C4BC23228EEAC6C61DF80C04618F (main) detached (reason=NEW_MAIN_FRAME, is_connected=1)
+[17784:3552:1216/212141.820:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[17784:3552:1216/212141.823:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=1073807364
+[17784:3552:1216/212141.823:WARNING:gpu_process_host.cc(1441)] The GPU process has crashed 1 time(s)
+[17784:3552:1216/212142.364:VERBOSE1:account_reconcilor.cc(264)] AccountReconcilor::Shutdown
+[17784:3552:1216/212142.364:VERBOSE1:account_reconcilor.cc(718)] AccountReconcilor::AbortReconcile: try again later
+[17784:3552:1216/212142.364:VERBOSE1:account_reconcilor.cc(827)] AccountReconcilor::CalculateIfMultiloginReconcileIsDone: Error was 
+[17784:3552:1216/212142.364:VERBOSE1:account_reconcilor.cc(313)] AccountReconcilor::UnregisterWithIdentityManager
+[17784:3552:1216/212142.364:VERBOSE1:account_reconcilor.cc(286)] AccountReconcilor::UnregisterWithContentSettings
+[17784:3552:1216/212142.380:VERBOSE1:gaia_cookie_manager_service.cc(628)] GaiaCookieManagerService::CancelAll
+[17784:3552:1216/212142.410:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(752)] MutablePO2TS::Shutdown
+[17784:3552:1216/212142.410:VERBOSE1:mutable_profile_oauth2_token_service_delegate.cc(235)] MutablePO2TS::~MutablePO2TS
+[17784:3552:1216/212142.411:VERBOSE1:device_event_log_impl.cc(198)] [21:21:42.411] Bluetooth: EVENT: bluetooth_api.cc:109 BluetoothAPI: Shutdown
+[17784:3552:1216/212142.753:VERBOSE1:account_reconcilor.cc(193)] AccountReconcilor::~AccountReconcilor
+[17784:3552:1216/212142.831:VERBOSE1:device_event_log_impl.cc(198)] [21:21:42.830] Bluetooth: EVENT: bluetooth_api.cc:95 ~BluetoothAPI: 000063DC0033DA00

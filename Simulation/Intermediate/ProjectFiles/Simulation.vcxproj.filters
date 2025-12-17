@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{1797D593-7CC5-3812-9193-8AAD12A3DA98}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{C34A53DE-7A2E-391F-9292-A84444E41B18}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\VisionOS">
+      <UniqueIdentifier>{54FB6262-BE34-3FD1-8608-DAEF798947B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\VisionOS\VisionOSDeviceProfiles.ini">
+      <Filter>Config\VisionOS</Filter>
+    </None>
+    <None Include="..\..\Config\VisionOS\VisionOSEngine.ini">
+      <Filter>Config\VisionOS</Filter>
+    </None>
+    <None Include="..\..\Simulation.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Simulation.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SimulationEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\Simulation">
+      <UniqueIdentifier>{EB43221C-CE4A-38F1-8E86-FE1ED7CAD10E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Simulation\Private">
+      <UniqueIdentifier>{EAA12EC6-8BDB-3C08-BF5F-F0DDAB7A62F6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Simulation\Private\EnhancedAbilityComponent.cpp">
+      <Filter>Source\Simulation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\EnhancedAttributeSet.cpp">
+      <Filter>Source\Simulation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\SimulationCharacter.cpp">
+      <Filter>Source\Simulation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\SimulationPlayerController.cpp">
+      <Filter>Source\Simulation\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\VRController.cpp">
+      <Filter>Source\Simulation\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Simulation\Public">
+      <UniqueIdentifier>{2177B180-B10E-35F4-8B06-4625AA7CBF0D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Simulation\Public\EnhancedAbilityComponent.h">
+      <Filter>Source\Simulation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Simulation\Public\EnhancedAttributeSet.h">
+      <Filter>Source\Simulation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Simulation\Public\SimulationCharacter.h">
+      <Filter>Source\Simulation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Simulation\Public\SimulationPlayerController.h">
+      <Filter>Source\Simulation\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Simulation\Public\VRController.h">
+      <Filter>Source\Simulation\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Simulation\Simulation.Build.cs">
+      <Filter>Source\Simulation</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Simulation\Simulation.cpp">
+      <Filter>Source\Simulation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Simulation\Simulation.h">
+      <Filter>Source\Simulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

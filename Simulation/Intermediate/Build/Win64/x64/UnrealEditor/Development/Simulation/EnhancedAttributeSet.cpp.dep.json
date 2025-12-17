@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\simulation\\simulation\\source\\simulation\\private\\enhancedattributeset.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\x64\\simulationeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simulation\\definitions.simulation.h",
+            "d:\\github\\simulation\\simulation\\source\\simulation\\public\\enhancedattributeset.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\attributeset.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\attributeset.generated.h",
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\unrealeditor\\inc\\simulation\\uht\\enhancedattributeset.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

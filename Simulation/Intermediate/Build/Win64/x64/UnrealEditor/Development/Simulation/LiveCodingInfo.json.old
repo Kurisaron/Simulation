@@ -1,0 +1,12 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Simulation.gen.cpp.obj": [
+			"EnhancedAttributeSet.gen.cpp.obj",
+			"Simulation.init.gen.cpp.obj",
+			"SimulationCharacter.gen.cpp.obj",
+			"SimulationPlayerController.gen.cpp.obj",
+			"VRController.gen.cpp.obj"
+		]
+	}
+}

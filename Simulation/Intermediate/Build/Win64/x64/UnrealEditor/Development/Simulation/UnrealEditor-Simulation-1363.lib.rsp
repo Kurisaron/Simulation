@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Simulation-1363.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/SimulationEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.obj"
+"D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp.obj"
+"D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Simulation.cpp.obj"
+"D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/SimulationPlayerController.cpp.obj"
+"D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/VRController.cpp.obj"
+"D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/PerModuleInline.gen.cpp.obj"
+"D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Default.rc2.res"
+/OUT:"D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/UnrealEditor-Simulation-1363.lib"

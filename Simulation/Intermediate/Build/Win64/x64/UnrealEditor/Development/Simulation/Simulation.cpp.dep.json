@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\simulation\\simulation\\source\\simulation\\simulation.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\x64\\simulationeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_4.h.pch",
+        "Includes": [
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simulation\\definitions.simulation.h",
+            "d:\\github\\simulation\\simulation\\source\\simulation\\simulation.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
