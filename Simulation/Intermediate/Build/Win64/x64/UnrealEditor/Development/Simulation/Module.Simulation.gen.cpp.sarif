@@ -3,7 +3,413 @@
     "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
     "runs": [
         {
-            "results": [],
+            "results": [
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/ArmorAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 19,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(CurrentDurability)"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/ArmorAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 14,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(Protection)"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/ArmorAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 24,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(MaxDurability)"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/ArmorAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 19,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(CurrentDurability)"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/HealthAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 14,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(CurrentHealth)"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/ArmorAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 24,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(MaxDurability)"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/HealthAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 19,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(MaxHealth)"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/HealthAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 14,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(CurrentHealth)"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 14,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(Experience)"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/HealthAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 19,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(MaxHealth)"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 19,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(ExperienceGainMultiplier)"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 14,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(Experience)"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 24,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(CurrentLevel)"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 19,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(ExperienceGainMultiplier)"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 29,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(MinLevel)"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 24,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(CurrentLevel)"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(MaxLevel)"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 29,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(MinLevel)"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                }
+            ],
             "tool": {
                 "driver": {
                     "name": "MSVC",

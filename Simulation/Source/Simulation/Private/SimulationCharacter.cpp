@@ -2,6 +2,7 @@
 
 
 #include "SimulationCharacter.h"
+#include "SimulationEntityComponent.h"
 
 // Sets default values
 ASimulationCharacter::ASimulationCharacter(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
@@ -12,8 +13,8 @@ ASimulationCharacter::ASimulationCharacter(const FObjectInitializer& ObjectIniti
 	// Set this character so that it can be damaged
 	SetCanBeDamaged(true);
 
-	// Create the ability system component
-	AbilityComponent = CreateDefaultSubobject<UEnhancedAbilityComponent>(TEXT("AbilityComponent"));
+	// Create the simulation entity component (subtype of ability system component)
+	EntityComponent = CreateDefaultSubobject<USimulationEntityComponent>(TEXT("SEC"));
 
 	// Set physics transform update mode on character mesh to "component transform is kinematic
 	// This is necessary for physics control
@@ -61,14 +62,14 @@ float ASimulationCharacter::TakeDamage(
 	AController* EventInstigator,
 	AActor* DamageCauser)
 {
-	float ActualDamage = AbilityComponent->TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	float ActualDamage = EntityComponent->TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 
 	return Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 }
 
 UAbilitySystemComponent* ASimulationCharacter::GetAbilitySystemComponent() const
 {
-	return AbilityComponent;
+	return EntityComponent;
 }
 
 UPhysicsControlComponent* ASimulationCharacter::GetPhysicsControl() const

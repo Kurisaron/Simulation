@@ -17,7 +17,7 @@ GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemInterface_NoRegis
 PHYSICSCONTROL_API UClass* Z_Construct_UClass_UPhysicsControlComponent_NoRegister();
 SIMULATION_API UClass* Z_Construct_UClass_ASimulationCharacter();
 SIMULATION_API UClass* Z_Construct_UClass_ASimulationCharacter_NoRegister();
-SIMULATION_API UClass* Z_Construct_UClass_UEnhancedAbilityComponent_NoRegister();
+SIMULATION_API UClass* Z_Construct_UClass_USimulationEntityComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Simulation();
 // ********** End Cross Module References **********************************************************
 
@@ -62,7 +62,7 @@ struct Z_Construct_UClass_ASimulationCharacter_Statics
 		{ "ModuleRelativePath", "Public/SimulationCharacter.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AbilityComponent_MetaData[] = {
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EntityComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Abilities" },
 		{ "EditInline", "true" },
@@ -77,7 +77,7 @@ struct Z_Construct_UClass_ASimulationCharacter_Statics
 #endif // WITH_METADATA
 
 // ********** Begin Class ASimulationCharacter constinit property declarations *********************
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_AbilityComponent;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_EntityComponent;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PhysicsControlComponent;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class ASimulationCharacter constinit property declarations ***********************
@@ -90,10 +90,10 @@ struct Z_Construct_UClass_ASimulationCharacter_Statics
 }; // struct Z_Construct_UClass_ASimulationCharacter_Statics
 
 // ********** Begin Class ASimulationCharacter Property Definitions ********************************
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASimulationCharacter_Statics::NewProp_AbilityComponent = { "AbilityComponent", nullptr, (EPropertyFlags)0x004000000008001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASimulationCharacter, AbilityComponent), Z_Construct_UClass_UEnhancedAbilityComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AbilityComponent_MetaData), NewProp_AbilityComponent_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASimulationCharacter_Statics::NewProp_EntityComponent = { "EntityComponent", nullptr, (EPropertyFlags)0x004000000008001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASimulationCharacter, EntityComponent), Z_Construct_UClass_USimulationEntityComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EntityComponent_MetaData), NewProp_EntityComponent_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASimulationCharacter_Statics::NewProp_PhysicsControlComponent = { "PhysicsControlComponent", nullptr, (EPropertyFlags)0x004000000008001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASimulationCharacter, PhysicsControlComponent), Z_Construct_UClass_UPhysicsControlComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PhysicsControlComponent_MetaData), NewProp_PhysicsControlComponent_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASimulationCharacter_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASimulationCharacter_Statics::NewProp_AbilityComponent,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASimulationCharacter_Statics::NewProp_EntityComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASimulationCharacter_Statics::NewProp_PhysicsControlComponent,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASimulationCharacter_Statics::PropPointers) < 2048);
@@ -140,10 +140,10 @@ ASimulationCharacter::~ASimulationCharacter() {}
 struct Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h__Script_Simulation_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASimulationCharacter, ASimulationCharacter::StaticClass, TEXT("ASimulationCharacter"), &Z_Registration_Info_UClass_ASimulationCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASimulationCharacter), 3476030034U) },
+		{ Z_Construct_UClass_ASimulationCharacter, ASimulationCharacter::StaticClass, TEXT("ASimulationCharacter"), &Z_Registration_Info_UClass_ASimulationCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASimulationCharacter), 341862092U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h__Script_Simulation_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h__Script_Simulation_991574076{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h__Script_Simulation_881898767{
 	TEXT("/Script/Simulation"),
 	Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h__Script_Simulation_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h__Script_Simulation_Statics::ClassInfo),
 	nullptr, 0,

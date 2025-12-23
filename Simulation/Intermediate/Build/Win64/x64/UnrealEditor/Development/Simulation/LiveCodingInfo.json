@@ -2,11 +2,16 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Simulation.gen.cpp.obj": [
-			"EnhancedAbilityComponent.gen.cpp.obj",
-			"EnhancedAttributeSet.gen.cpp.obj",
+			"ArmorAttributeSet.gen.cpp.obj",
+			"EntityAttributeSet.gen.cpp.obj",
+			"HealthAttributeSet.gen.cpp.obj",
+			"ShieldAttributeSet.gen.cpp.obj",
 			"Simulation.init.gen.cpp.obj",
+			"SimulationAIController.gen.cpp.obj",
 			"SimulationCharacter.gen.cpp.obj",
+			"SimulationEntityComponent.gen.cpp.obj",
 			"SimulationPlayerController.gen.cpp.obj",
+			"SkillAttributeSet.gen.cpp.obj",
 			"VRController.gen.cpp.obj"
 		]
 	}

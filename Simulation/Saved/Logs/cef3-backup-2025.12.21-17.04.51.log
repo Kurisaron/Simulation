@@ -1,0 +1,8 @@
+[6812:21216:1221/090330.070:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[6812:21216:1221/090333.629:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[6812:21216:1221/090424.239:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[6812:21216:1221/090431.243:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[6948:4876:1221/090439.102:ERROR:frame_impl.cc(537)] frame 5-60388848685E3234695EFE94942FB9A6 connection timeout
+[6524:15868:1221/090450.022:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -107
+[6524:15868:1221/090451.533:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[6524:15868:1221/090451.863:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101

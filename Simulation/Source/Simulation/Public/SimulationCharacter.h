@@ -6,9 +6,10 @@
 #include "GameFramework/Character.h"
 #include "Engine/DamageEvents.h"
 #include "AbilitySystemInterface.h"
-#include "EnhancedAbilityComponent.h"
 #include "PhysicsControlComponent.h"
 #include "SimulationCharacter.generated.h"
+
+class USimulationEntityComponent;
 
 UCLASS(Abstract, Blueprintable)
 class SIMULATION_API ASimulationCharacter : public ACharacter, public IAbilitySystemInterface
@@ -16,7 +17,7 @@ class SIMULATION_API ASimulationCharacter : public ACharacter, public IAbilitySy
 	GENERATED_BODY()
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Abilities", meta = (AllowPrivateAccess = "true"))
-	UEnhancedAbilityComponent* AbilityComponent;
+	USimulationEntityComponent* EntityComponent;
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Physical Animation", meta = (AllowPrivateAccess = "true"))
 	UPhysicsControlComponent* PhysicsControlComponent;
