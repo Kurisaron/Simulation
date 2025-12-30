@@ -15,12 +15,18 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class USimulationEntityComponent;
 
 // ********** Begin Class USimulationEntityComponent ***********************************************
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execIsSimulationEntity);
+
+
 struct Z_Construct_UClass_USimulationEntityComponent_Statics;
 SIMULATION_API UClass* Z_Construct_UClass_USimulationEntityComponent_NoRegister();
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSimulationEntityComponent(); \
 	friend struct ::Z_Construct_UClass_USimulationEntityComponent_Statics; \
@@ -31,7 +37,7 @@ public: \
 	DECLARE_SERIALIZER(USimulationEntityComponent)
 
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_17_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	USimulationEntityComponent(USimulationEntityComponent&&) = delete; \
 	USimulationEntityComponent(const USimulationEntityComponent&) = delete; \
@@ -41,12 +47,13 @@ public: \
 	NO_API virtual ~USimulationEntityComponent();
 
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_15_PROLOG
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_18_GENERATED_BODY \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_14_PROLOG
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_18_INCLASS_NO_PURE_DECLS \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_18_ENHANCED_CONSTRUCTORS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_17_INCLASS_NO_PURE_DECLS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

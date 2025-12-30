@@ -1,0 +1,39 @@
+[2944:26100:1229/155603.519:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[2944:26100:1229/155603.590:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[2944:26100:1229/155611.669:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[28668:28244:1229/155615.845:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 3
+[28668:28244:1229/155615.845:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 5
+[28668:28244:1229/155623.435:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/155627.134:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -107
+[28668:28244:1229/155640.134:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/155644.369:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[10664:30928:1229/155651.462:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-D872216A08039344748DA202F125D7AE will be ignored
+[28548:1504:1229/155655.970:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 6-D7782EFAC2B39D0FA1BC67AA2A1EB2E8 will be ignored
+[27560:27320:1229/155656.322:ERROR:shared_image_manager.cc(224)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[28668:28244:1229/155849.329:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/155901.042:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/155902.606:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/161920.384:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 1
+[28668:28244:1229/161920.463:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 3
+[28668:28244:1229/161920.463:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 5
+[28668:28244:1229/163257.747:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/163258.050:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/163309.526:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/163310.264:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/163311.301:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/164930.173:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 5
+[28668:28244:1229/170056.202:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/170056.494:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/170056.502:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/170100.680:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/170100.681:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/170110.094:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/173833.862:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/173850.157:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/173901.424:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/173902.942:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/173903.058:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/173916.638:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/173928.861:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[28668:28244:1229/173932.361:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[2944:26100:1229/175559.570:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

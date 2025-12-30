@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimulationModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4340e81c240652a0d3d35b5bd10aa8a30e0e1b2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimulationModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimulationModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

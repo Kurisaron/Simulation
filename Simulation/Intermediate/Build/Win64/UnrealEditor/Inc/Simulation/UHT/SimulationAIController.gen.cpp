@@ -13,8 +13,11 @@ void EmptyLinkFunctionForGeneratedCodeSimulationAIController() {}
 
 // ********** Begin Cross Module References ********************************************************
 AIMODULE_API UClass* Z_Construct_UClass_AAIController();
+AIMODULE_API UClass* Z_Construct_UClass_UAIPerceptionComponent_NoRegister();
+GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemInterface_NoRegister();
 SIMULATION_API UClass* Z_Construct_UClass_ASimulationAIController();
 SIMULATION_API UClass* Z_Construct_UClass_ASimulationAIController_NoRegister();
+SIMULATION_API UClass* Z_Construct_UClass_USimulationEntityComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Simulation();
 // ********** End Cross Module References **********************************************************
 
@@ -52,43 +55,75 @@ struct Z_Construct_UClass_ASimulationAIController_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * AI Controller used by simulation entity NPCs\n */" },
 #endif
 		{ "HideCategories", "Collision Rendering Transformation" },
 		{ "IncludePath", "SimulationAIController.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/SimulationAIController.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "AI Controller used by simulation entity NPCs" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EntityComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Simulation Entity" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/SimulationAIController.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AI_Perception_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Simulation AI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/SimulationAIController.h" },
+	};
 #endif // WITH_METADATA
 
 // ********** Begin Class ASimulationAIController constinit property declarations ******************
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_EntityComponent;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_AI_Perception;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class ASimulationAIController constinit property declarations ********************
 	static UObject* (*const DependentSingletons[])();
+	static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASimulationAIController>::IsAbstract,
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 }; // struct Z_Construct_UClass_ASimulationAIController_Statics
+
+// ********** Begin Class ASimulationAIController Property Definitions *****************************
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASimulationAIController_Statics::NewProp_EntityComponent = { "EntityComponent", nullptr, (EPropertyFlags)0x004000000008001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASimulationAIController, EntityComponent), Z_Construct_UClass_USimulationEntityComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EntityComponent_MetaData), NewProp_EntityComponent_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASimulationAIController_Statics::NewProp_AI_Perception = { "AI_Perception", nullptr, (EPropertyFlags)0x004000000008001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASimulationAIController, AI_Perception), Z_Construct_UClass_UAIPerceptionComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AI_Perception_MetaData), NewProp_AI_Perception_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASimulationAIController_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASimulationAIController_Statics::NewProp_EntityComponent,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASimulationAIController_Statics::NewProp_AI_Perception,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASimulationAIController_Statics::PropPointers) < 2048);
+// ********** End Class ASimulationAIController Property Definitions *******************************
 UObject* (*const Z_Construct_UClass_ASimulationAIController_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UClass_AAIController,
 	(UObject* (*)())Z_Construct_UPackage__Script_Simulation,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASimulationAIController_Statics::DependentSingletons) < 16);
+const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ASimulationAIController_Statics::InterfaceParams[] = {
+	{ Z_Construct_UClass_UAbilitySystemInterface_NoRegister, (int32)VTABLE_OFFSET(ASimulationAIController, IAbilitySystemInterface), false },  // 2722098046
+};
 const UECodeGen_Private::FClassParams Z_Construct_UClass_ASimulationAIController_Statics::ClassParams = {
 	&ASimulationAIController::StaticClass,
 	"Engine",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
 	nullptr,
-	nullptr,
-	nullptr,
+	Z_Construct_UClass_ASimulationAIController_Statics::PropPointers,
+	InterfaceParams,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
-	0,
-	0,
+	UE_ARRAY_COUNT(Z_Construct_UClass_ASimulationAIController_Statics::PropPointers),
+	UE_ARRAY_COUNT(InterfaceParams),
 	0x009002A5u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ASimulationAIController_Statics::Class_MetaDataParams), Z_Construct_UClass_ASimulationAIController_Statics::Class_MetaDataParams)
 };
@@ -103,7 +138,6 @@ UClass* Z_Construct_UClass_ASimulationAIController()
 	}
 	return Z_Registration_Info_UClass_ASimulationAIController.OuterSingleton;
 }
-ASimulationAIController::ASimulationAIController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR_NS(, ASimulationAIController);
 ASimulationAIController::~ASimulationAIController() {}
 // ********** End Class ASimulationAIController ****************************************************
@@ -112,10 +146,10 @@ ASimulationAIController::~ASimulationAIController() {}
 struct Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h__Script_Simulation_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASimulationAIController, ASimulationAIController::StaticClass, TEXT("ASimulationAIController"), &Z_Registration_Info_UClass_ASimulationAIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASimulationAIController), 819090436U) },
+		{ Z_Construct_UClass_ASimulationAIController, ASimulationAIController::StaticClass, TEXT("ASimulationAIController"), &Z_Registration_Info_UClass_ASimulationAIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASimulationAIController), 674753949U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h__Script_Simulation_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h__Script_Simulation_2076879492{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h__Script_Simulation_3711620281{
 	TEXT("/Script/Simulation"),
 	Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h__Script_Simulation_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h__Script_Simulation_Statics::ClassInfo),
 	nullptr, 0,

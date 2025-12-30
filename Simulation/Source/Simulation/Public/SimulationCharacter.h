@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "GameFramework/Character.h"
 #include "Engine/DamageEvents.h"
 #include "AbilitySystemInterface.h"
@@ -12,11 +13,13 @@
 class USimulationEntityComponent;
 
 UCLASS(Abstract, Blueprintable)
-class SIMULATION_API ASimulationCharacter : public ACharacter, public IAbilitySystemInterface
+class SIMULATION_API ASimulationCharacter : 
+	public ACharacter, 
+	public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
-	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Abilities", meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Simulation Entity", meta = (AllowPrivateAccess = "true"))
 	USimulationEntityComponent* EntityComponent;
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Physical Animation", meta = (AllowPrivateAccess = "true"))
@@ -35,6 +38,8 @@ protected:
 	// Called when the character is possessed. Only called on the server (or in standalone)
 	virtual void PossessedBy(AController* NewController) override;
 
+	virtual void OnRep_PlayerState() override;
+
 public:
 
 	// Called to bind functionality to input
@@ -42,6 +47,10 @@ public:
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	// Called to move the character
+	UFUNCTION(BlueprintCallable, Category = "Simulation Character|Movement")
+	virtual void Move(FVector2D MoveInput);
 
 	// Apply damage to this character
 	virtual float TakeDamage(

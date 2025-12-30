@@ -7,6 +7,9 @@
         "Includes": [
             "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simulation\\definitions.simulation.h",
             "d:\\github\\simulation\\simulation\\source\\simulation\\public\\simulationcharacter.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
             "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",

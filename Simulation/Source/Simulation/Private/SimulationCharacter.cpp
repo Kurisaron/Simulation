@@ -33,13 +33,29 @@ void ASimulationCharacter::BeginPlay()
 	Super::BeginPlay();
 	
 	// Enable physics control on character mesh
-	//PhysicsControlComponent->CreateControlsAndBodyModifiersFromPhysicsControlAsset(GetMesh(), nullptr, FName());
+	PhysicsControlComponent->CreateControlsAndBodyModifiersFromPhysicsControlAsset(GetMesh(), nullptr, FName());
 
 }
 
 void ASimulationCharacter::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
+
+	if (EntityComponent)
+	{
+		EntityComponent->InitAbilityActorInfo(this, this);
+	}
+	
+}
+
+void ASimulationCharacter::OnRep_PlayerState()
+{
+	Super::OnRep_PlayerState();
+
+	if (EntityComponent)
+	{
+		EntityComponent->InitAbilityActorInfo(this, this);
+	}
 }
 
 // Called to bind functionality to input
@@ -56,6 +72,15 @@ void ASimulationCharacter::Tick(float DeltaTime)
 
 }
 
+void ASimulationCharacter::Move(FVector2D MoveInput)
+{
+	FRotator ControlRotation = GetControlRotation();
+	FVector MovementForward = UKismetMathLibrary::GetForwardVector(FRotator(0.0, ControlRotation.Yaw, 0.0));
+	AddMovementInput(MovementForward, MoveInput.Y);
+	FVector MovementRight = UKismetMathLibrary::GetRightVector(FRotator(0.0, ControlRotation.Yaw, ControlRotation.Roll));
+	AddMovementInput(MovementRight, MoveInput.X);
+}
+
 float ASimulationCharacter::TakeDamage(
 	float DamageAmount,
 	FDamageEvent const& DamageEvent,
@@ -67,12 +92,6 @@ float ASimulationCharacter::TakeDamage(
 	return Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 }
 
-UAbilitySystemComponent* ASimulationCharacter::GetAbilitySystemComponent() const
-{
-	return EntityComponent;
-}
+UAbilitySystemComponent* ASimulationCharacter::GetAbilitySystemComponent() const { return EntityComponent; }
 
-UPhysicsControlComponent* ASimulationCharacter::GetPhysicsControl() const
-{
-	return PhysicsControlComponent;
-}
+UPhysicsControlComponent* ASimulationCharacter::GetPhysicsControl() const { return PhysicsControlComponent; }

@@ -1,0 +1,16 @@
+[8988:30764:1229/180300.973:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[8988:30764:1229/180301.027:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[8988:30764:1229/180303.987:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[7968:31420:1229/180309.787:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 5
+[7968:31420:1229/182530.869:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7968:31420:1229/182531.044:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7968:31420:1229/182531.122:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7968:31420:1229/182531.174:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7968:31420:1229/182531.185:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7968:31420:1229/182531.301:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7968:31420:1229/182531.352:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7968:31420:1229/182531.361:ERROR:ssl_client_socket_impl.cc(882)] handshake failed; returned -1, SSL error code 1, net_error -101
+[7968:31420:1230/001251.666:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 1
+[7968:31420:1230/001251.666:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 3
+[7968:31420:1230/001251.666:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 5
+[8988:30764:1230/003316.012:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

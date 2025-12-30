@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_ASimulationPlayerController_Statics;
 SIMULATION_API UClass* Z_Construct_UClass_ASimulationPlayerController_NoRegister();
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASimulationPlayerController(); \
 	friend struct ::Z_Construct_UClass_ASimulationPlayerController_Statics; \
@@ -28,10 +28,11 @@ private: \
 	friend SIMULATION_API UClass* ::Z_Construct_UClass_ASimulationPlayerController_NoRegister(); \
 public: \
 	DECLARE_CLASS2(ASimulationPlayerController, APlayerController, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Simulation"), Z_Construct_UClass_ASimulationPlayerController_NoRegister) \
-	DECLARE_SERIALIZER(ASimulationPlayerController)
+	DECLARE_SERIALIZER(ASimulationPlayerController) \
+	virtual UObject* _getUObject() const override { return const_cast<ASimulationPlayerController*>(this); }
 
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_22_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ASimulationPlayerController(ASimulationPlayerController&&) = delete; \
 	ASimulationPlayerController(const ASimulationPlayerController&) = delete; \
@@ -41,12 +42,12 @@ public: \
 	NO_API virtual ~ASimulationPlayerController();
 
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_13_PROLOG
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_16_GENERATED_BODY \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_17_PROLOG
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_22_INCLASS_NO_PURE_DECLS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

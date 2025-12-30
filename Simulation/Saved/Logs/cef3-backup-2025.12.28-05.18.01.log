@@ -1,0 +1,7 @@
+[23280:23964:1227/190730.972:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[23280:23964:1227/190731.041:ERROR:device_event_log_impl.cc(196)] [19:07:31.038] Display: display_layout.cc:554 PlacementList must be sorted by first 8 bits of display_id
+[23280:23964:1227/190731.099:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[23280:23964:1227/190734.958:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[23280:23964:1227/190735.475:ERROR:device_event_log_impl.cc(196)] [19:07:35.475] Display: display_layout.cc:554 PlacementList must be sorted by first 8 bits of display_id
+[23280:23964:1227/190738.377:ERROR:device_event_log_impl.cc(196)] [19:07:38.377] Display: display_layout.cc:554 PlacementList must be sorted by first 8 bits of display_id
+[23280:23964:1227/211801.917:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

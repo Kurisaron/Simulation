@@ -3,9 +3,18 @@
 
 #include "SimulationEntityComponent.h"
 
-USimulationEntityComponent::USimulationEntityComponent(const FObjectInitializer& ObjectInitializer)
+USimulationEntityComponent::USimulationEntityComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
+	SetIsReplicated(true);
+	SetReplicationMode(DefaultReplicationMode);
 
+	LastDamageEventInstigator = nullptr;
+	LastDamageCauser = nullptr;
+}
+
+void USimulationEntityComponent::BeginPlay()
+{
+	Super::BeginPlay();
 }
 
 float USimulationEntityComponent::TakeDamage(
@@ -19,4 +28,10 @@ float USimulationEntityComponent::TakeDamage(
 
 	// TO-DO: FINISH DAMAGE LOGIC
 	return 0.0f;
+}
+
+bool USimulationEntityComponent::IsSimulationEntity(AActor* Actor, USimulationEntityComponent*& OutEntityComponent)
+{
+	OutEntityComponent = Actor->FindComponentByClass<USimulationEntityComponent>();
+	return OutEntityComponent != nullptr;
 }

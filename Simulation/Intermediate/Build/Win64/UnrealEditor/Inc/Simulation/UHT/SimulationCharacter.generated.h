@@ -17,10 +17,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ASimulationCharacter *****************************************************
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execMove);
+
+
 struct Z_Construct_UClass_ASimulationCharacter_Statics;
 SIMULATION_API UClass* Z_Construct_UClass_ASimulationCharacter_NoRegister();
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASimulationCharacter(); \
 	friend struct ::Z_Construct_UClass_ASimulationCharacter_Statics; \
@@ -32,7 +36,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<ASimulationCharacter*>(this); }
 
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_20_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ASimulationCharacter(ASimulationCharacter&&) = delete; \
 	ASimulationCharacter(const ASimulationCharacter&) = delete; \
@@ -42,12 +46,13 @@ public: \
 	NO_API virtual ~ASimulationCharacter();
 
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_14_PROLOG
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_17_GENERATED_BODY \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_15_PROLOG
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
