@@ -14,10 +14,8 @@ void EmptyLinkFunctionForGeneratedCodeSimulationPlayerController() {}
 // ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
-GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemInterface_NoRegister();
 SIMULATION_API UClass* Z_Construct_UClass_ASimulationPlayerController();
 SIMULATION_API UClass* Z_Construct_UClass_ASimulationPlayerController_NoRegister();
-SIMULATION_API UClass* Z_Construct_UClass_USimulationEntityComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Simulation();
 // ********** End Cross Module References **********************************************************
 
@@ -66,18 +64,6 @@ struct Z_Construct_UClass_ASimulationPlayerController_Statics
 		{ "ToolTip", "Base player controller for this simulation game" },
 #endif
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EntityComponent_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "Simulation Player|Entity" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/* Simulation Entity Component used for storing attributes and abilities */" },
-#endif
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/SimulationPlayerController.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Simulation Entity Component used for storing attributes and abilities" },
-#endif
-	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultMappingContexts_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Input" },
@@ -92,13 +78,11 @@ struct Z_Construct_UClass_ASimulationPlayerController_Statics
 #endif // WITH_METADATA
 
 // ********** Begin Class ASimulationPlayerController constinit property declarations **************
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_EntityComponent;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_DefaultMappingContexts_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_DefaultMappingContexts;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class ASimulationPlayerController constinit property declarations ****************
 	static UObject* (*const DependentSingletons[])();
-	static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASimulationPlayerController>::IsAbstract,
 	};
@@ -106,11 +90,9 @@ struct Z_Construct_UClass_ASimulationPlayerController_Statics
 }; // struct Z_Construct_UClass_ASimulationPlayerController_Statics
 
 // ********** Begin Class ASimulationPlayerController Property Definitions *************************
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASimulationPlayerController_Statics::NewProp_EntityComponent = { "EntityComponent", nullptr, (EPropertyFlags)0x004000000008001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASimulationPlayerController, EntityComponent), Z_Construct_UClass_USimulationEntityComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EntityComponent_MetaData), NewProp_EntityComponent_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASimulationPlayerController_Statics::NewProp_DefaultMappingContexts_Inner = { "DefaultMappingContexts", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ASimulationPlayerController_Statics::NewProp_DefaultMappingContexts = { "DefaultMappingContexts", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASimulationPlayerController, DefaultMappingContexts), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultMappingContexts_MetaData), NewProp_DefaultMappingContexts_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASimulationPlayerController_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASimulationPlayerController_Statics::NewProp_EntityComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASimulationPlayerController_Statics::NewProp_DefaultMappingContexts_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASimulationPlayerController_Statics::NewProp_DefaultMappingContexts,
 };
@@ -121,9 +103,6 @@ UObject* (*const Z_Construct_UClass_ASimulationPlayerController_Statics::Depende
 	(UObject* (*)())Z_Construct_UPackage__Script_Simulation,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASimulationPlayerController_Statics::DependentSingletons) < 16);
-const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ASimulationPlayerController_Statics::InterfaceParams[] = {
-	{ Z_Construct_UClass_UAbilitySystemInterface_NoRegister, (int32)VTABLE_OFFSET(ASimulationPlayerController, IAbilitySystemInterface), false },  // 2722098046
-};
 const UECodeGen_Private::FClassParams Z_Construct_UClass_ASimulationPlayerController_Statics::ClassParams = {
 	&ASimulationPlayerController::StaticClass,
 	"Game",
@@ -131,11 +110,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ASimulationPlayerContro
 	DependentSingletons,
 	nullptr,
 	Z_Construct_UClass_ASimulationPlayerController_Statics::PropPointers,
-	InterfaceParams,
+	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
 	UE_ARRAY_COUNT(Z_Construct_UClass_ASimulationPlayerController_Statics::PropPointers),
-	UE_ARRAY_COUNT(InterfaceParams),
+	0,
 	0x009002A5u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ASimulationPlayerController_Statics::Class_MetaDataParams), Z_Construct_UClass_ASimulationPlayerController_Statics::Class_MetaDataParams)
 };
@@ -158,10 +137,10 @@ ASimulationPlayerController::~ASimulationPlayerController() {}
 struct Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h__Script_Simulation_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASimulationPlayerController, ASimulationPlayerController::StaticClass, TEXT("ASimulationPlayerController"), &Z_Registration_Info_UClass_ASimulationPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASimulationPlayerController), 2770842081U) },
+		{ Z_Construct_UClass_ASimulationPlayerController, ASimulationPlayerController::StaticClass, TEXT("ASimulationPlayerController"), &Z_Registration_Info_UClass_ASimulationPlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASimulationPlayerController), 338718778U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h__Script_Simulation_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h__Script_Simulation_3410561115{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h__Script_Simulation_2341596063{
 	TEXT("/Script/Simulation"),
 	Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h__Script_Simulation_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationPlayerController_h__Script_Simulation_Statics::ClassInfo),
 	nullptr, 0,

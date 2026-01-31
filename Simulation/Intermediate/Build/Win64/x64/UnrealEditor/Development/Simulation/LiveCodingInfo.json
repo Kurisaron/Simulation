@@ -8,12 +8,13 @@
 			"EntityEffect.gen.cpp.obj",
 			"Faction.gen.cpp.obj",
 			"HealthAttributeSet.gen.cpp.obj",
+			"NeedAttributeSet.gen.cpp.obj",
 			"ShieldAttributeSet.gen.cpp.obj",
 			"Simulation.init.gen.cpp.obj",
 			"SimulationAIController.gen.cpp.obj",
 			"SimulationCharacter.gen.cpp.obj",
 			"SimulationEntityComponent.gen.cpp.obj",
-			"SimulationPawn.gen.cpp.obj",
+			"SimulationPhysicalMaterial.gen.cpp.obj",
 			"SimulationPlayerController.gen.cpp.obj",
 			"SkillAttributeSet.gen.cpp.obj"
 		]

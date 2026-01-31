@@ -367,7 +367,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UArmorAttributeSet_Stat
 	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_UArmorAttributeSet_Statics::PropPointers),
 	0,
-	0x003000A1u,
+	0x043000A1u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UArmorAttributeSet_Statics::Class_MetaDataParams), Z_Construct_UClass_UArmorAttributeSet_Statics::Class_MetaDataParams)
 };
 void UArmorAttributeSet::StaticRegisterNativesUArmorAttributeSet()
@@ -404,10 +404,10 @@ UArmorAttributeSet::~UArmorAttributeSet() {}
 struct Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ArmorAttributeSet_h__Script_Simulation_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UArmorAttributeSet, UArmorAttributeSet::StaticClass, TEXT("UArmorAttributeSet"), &Z_Registration_Info_UClass_UArmorAttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UArmorAttributeSet), 2816096010U) },
+		{ Z_Construct_UClass_UArmorAttributeSet, UArmorAttributeSet::StaticClass, TEXT("UArmorAttributeSet"), &Z_Registration_Info_UClass_UArmorAttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UArmorAttributeSet), 3729255560U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ArmorAttributeSet_h__Script_Simulation_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ArmorAttributeSet_h__Script_Simulation_2665378942{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ArmorAttributeSet_h__Script_Simulation_3345877638{
 	TEXT("/Script/Simulation"),
 	Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ArmorAttributeSet_h__Script_Simulation_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ArmorAttributeSet_h__Script_Simulation_Statics::ClassInfo),
 	nullptr, 0,

@@ -20,7 +20,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 struct Z_Construct_UClass_ASimulationAIController_Statics;
 SIMULATION_API UClass* Z_Construct_UClass_ASimulationAIController_NoRegister();
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_21_INCLASS_NO_PURE_DECLS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASimulationAIController(); \
 	friend struct ::Z_Construct_UClass_ASimulationAIController_Statics; \
@@ -28,11 +28,10 @@ private: \
 	friend SIMULATION_API UClass* ::Z_Construct_UClass_ASimulationAIController_NoRegister(); \
 public: \
 	DECLARE_CLASS2(ASimulationAIController, AAIController, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Simulation"), Z_Construct_UClass_ASimulationAIController_NoRegister) \
-	DECLARE_SERIALIZER(ASimulationAIController) \
-	virtual UObject* _getUObject() const override { return const_cast<ASimulationAIController*>(this); }
+	DECLARE_SERIALIZER(ASimulationAIController)
 
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_21_ENHANCED_CONSTRUCTORS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_19_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ASimulationAIController(ASimulationAIController&&) = delete; \
 	ASimulationAIController(const ASimulationAIController&) = delete; \
@@ -43,11 +42,11 @@ public: \
 
 
 #define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_16_PROLOG
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_21_GENERATED_BODY \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_21_INCLASS_NO_PURE_DECLS \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_21_ENHANCED_CONSTRUCTORS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationAIController_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

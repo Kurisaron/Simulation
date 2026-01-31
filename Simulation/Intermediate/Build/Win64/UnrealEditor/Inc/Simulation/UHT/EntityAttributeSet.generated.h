@@ -15,13 +15,17 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FGameplayTag;
+struct FGameplayTagContainer;
 
 // ********** Begin Class UEntityAttributeSet ******************************************************
 #define FID_Github_Simulation_Simulation_Source_Simulation_Public_EntityAttributeSet_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetSetDescription); \
 	DECLARE_FUNCTION(execShouldDisplayDescription); \
 	DECLARE_FUNCTION(execGetSetName); \
-	DECLARE_FUNCTION(execShouldDisplayName);
+	DECLARE_FUNCTION(execShouldDisplayName); \
+	DECLARE_FUNCTION(execGetAttributeSetTags); \
+	DECLARE_FUNCTION(execGetID);
 
 
 struct Z_Construct_UClass_UEntityAttributeSet_Statics;

@@ -5,7 +5,13 @@
 
 UHealthAttributeSet::UHealthAttributeSet(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
+	InitCurrentHealth(DefaultHealth);
+	InitMaxHealth(DefaultHealth);
+}
 
+const float UHealthAttributeSet::GetDefaultHealth() const
+{
+	return DefaultHealth;
 }
 
 void UHealthAttributeSet::OnRep_CurrentHealth(const FGameplayAttributeData& OldCurrentHealth)

@@ -88,7 +88,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UShieldAttributeSet_Sta
 	0,
 	0,
 	0,
-	0x003000A1u,
+	0x043000A1u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UShieldAttributeSet_Statics::Class_MetaDataParams), Z_Construct_UClass_UShieldAttributeSet_Statics::Class_MetaDataParams)
 };
 void UShieldAttributeSet::StaticRegisterNativesUShieldAttributeSet()
@@ -110,10 +110,10 @@ UShieldAttributeSet::~UShieldAttributeSet() {}
 struct Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ShieldAttributeSet_h__Script_Simulation_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UShieldAttributeSet, UShieldAttributeSet::StaticClass, TEXT("UShieldAttributeSet"), &Z_Registration_Info_UClass_UShieldAttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UShieldAttributeSet), 1406666336U) },
+		{ Z_Construct_UClass_UShieldAttributeSet, UShieldAttributeSet::StaticClass, TEXT("UShieldAttributeSet"), &Z_Registration_Info_UClass_UShieldAttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UShieldAttributeSet), 2189502178U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ShieldAttributeSet_h__Script_Simulation_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ShieldAttributeSet_h__Script_Simulation_878443990{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ShieldAttributeSet_h__Script_Simulation_1532763327{
 	TEXT("/Script/Simulation"),
 	Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ShieldAttributeSet_h__Script_Simulation_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_ShieldAttributeSet_h__Script_Simulation_Statics::ClassInfo),
 	nullptr, 0,

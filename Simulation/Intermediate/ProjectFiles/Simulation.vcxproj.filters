@@ -75,6 +75,9 @@
     <ClCompile Include="..\..\Source\Simulation\Private\HealthAttributeSet.cpp">
       <Filter>Source\Simulation\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\NeedAttributeSet.cpp">
+      <Filter>Source\Simulation\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\ShieldAttributeSet.cpp">
       <Filter>Source\Simulation\Private</Filter>
     </ClCompile>
@@ -87,7 +90,7 @@
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationEntityComponent.cpp">
       <Filter>Source\Simulation\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\SimulationPawn.cpp">
+    <ClCompile Include="..\..\Source\Simulation\Private\SimulationPhysicalMaterial.cpp">
       <Filter>Source\Simulation\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationPlayerController.cpp">
@@ -117,6 +120,9 @@
     <ClInclude Include="..\..\Source\Simulation\Public\HealthAttributeSet.h">
       <Filter>Source\Simulation\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Simulation\Public\NeedAttributeSet.h">
+      <Filter>Source\Simulation\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\Simulation\Public\ShieldAttributeSet.h">
       <Filter>Source\Simulation\Public</Filter>
     </ClInclude>
@@ -129,7 +135,7 @@
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationEntityComponent.h">
       <Filter>Source\Simulation\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\Simulation\Public\SimulationPawn.h">
+    <ClInclude Include="..\..\Source\Simulation\Public\SimulationPhysicalMaterial.h">
       <Filter>Source\Simulation\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationPlayerController.h">

@@ -196,13 +196,13 @@
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/NeedAttributeSet.h"
                                 },
                                 "region": {
                                     "startLine": 14,
                                     "startColumn": 1,
                                     "snippet": {
-                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(Experience)"
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(CurrentSatisfaction)"
                                     }
                                 }
                             }
@@ -220,6 +220,51 @@
                                     "startColumn": 1,
                                     "snippet": {
                                         "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(MaxHealth)"
+                                    }
+                                }
+                            },
+                            "message": {
+                                "text": "see previous definition of 'ATTRIBUTE_ACCESSORS'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "C4005",
+                    "message": {
+                        "text": "'ATTRIBUTE_ACCESSORS': macro redefinition"
+                    },
+                    "analysisTarget": {
+                        "uri": "file:///D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/Module.Simulation.gen.cpp"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/SkillAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 14,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(Experience)"
+                                    }
+                                }
+                            }
+                        }
+                    ],
+                    "relatedLocations": [
+                        {
+                            "id": 0,
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "file:///D:/Github/Simulation/Simulation/Source/Simulation/Public/NeedAttributeSet.h"
+                                },
+                                "region": {
+                                    "startLine": 14,
+                                    "startColumn": 1,
+                                    "snippet": {
+                                        "text": "\tGAMEPLAYATTRIBUTE_VALUE_INITTER(CurrentSatisfaction)"
                                     }
                                 }
                             },

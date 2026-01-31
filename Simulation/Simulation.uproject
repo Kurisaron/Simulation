@@ -12,7 +12,8 @@
 				"Engine",
 				"GameplayAbilities",
 				"AIModule",
-				"CoreUObject"
+				"CoreUObject",
+				"PhysicsCore"
 			]
 		}
 	],
@@ -39,6 +40,10 @@
 		},
 		{
 			"Name": "PhysicsControl",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryScripting",
 			"Enabled": true
 		}
 	],

@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS(Abstract, Blueprintable, BlueprintType)
+UCLASS(Abstract, Blueprintable, BlueprintType, HideDropdown)
 class SIMULATION_API UShieldAttributeSet : public UEntityAttributeSet
 {
 	GENERATED_BODY()

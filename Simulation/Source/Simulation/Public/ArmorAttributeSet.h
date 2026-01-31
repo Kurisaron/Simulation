@@ -27,7 +27,7 @@
  * Attribute sets used for armor. Armor is a non-depleting defense against damage, reducing incoming instances of damage before they are applied to health
  * Like health, entities may have multiple types each with their own basis on entities' defenses
  */
-UCLASS(Abstract, Blueprintable, BlueprintType)
+UCLASS(Abstract, Blueprintable, BlueprintType, HideDropdown)
 class SIMULATION_API UArmorAttributeSet : public UEntityAttributeSet
 {
 	GENERATED_BODY()

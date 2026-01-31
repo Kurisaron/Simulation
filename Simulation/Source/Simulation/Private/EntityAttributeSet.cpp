@@ -8,12 +8,24 @@ UEntityAttributeSet::UEntityAttributeSet(const FObjectInitializer& ObjectInitial
 
 }
 
+const FGameplayTag UEntityAttributeSet::GetID() const
+{
+	//UE_LOG(LogTemp, Warning, TEXT("[%s] Performed getter on ID, output: %s"), *GetName(), *ID.ToString());
+
+	return ID;
+}
+
+const FGameplayTagContainer UEntityAttributeSet::GetAttributeSetTags() const
+{
+	return AttributeSetTags;
+}
+
 bool UEntityAttributeSet::ShouldDisplayName()
 {
 	return !SetName.IsNone();
 }
 
-FName UEntityAttributeSet::GetSetName()
+const FName UEntityAttributeSet::GetSetName() const
 {
 	return SetName;
 }
@@ -23,7 +35,7 @@ bool UEntityAttributeSet::ShouldDisplayDescription()
 	return !SetDescription.IsEmpty();
 }
 
-FString UEntityAttributeSet::GetSetDescription()
+const FString UEntityAttributeSet::GetSetDescription() const
 {
 	return SetDescription;
 }

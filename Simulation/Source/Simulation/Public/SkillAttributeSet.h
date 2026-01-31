@@ -37,7 +37,7 @@
  * Attribute sets used for skills.
  * Skills gain experience based on using associated actions, and that experience builds until the next level is reached.
  */
-UCLASS(Abstract, Blueprintable, BlueprintType)
+UCLASS(Abstract, Blueprintable, BlueprintType, HideDropdown)
 class SIMULATION_API USkillAttributeSet : public UEntityAttributeSet
 {
 	GENERATED_BODY()

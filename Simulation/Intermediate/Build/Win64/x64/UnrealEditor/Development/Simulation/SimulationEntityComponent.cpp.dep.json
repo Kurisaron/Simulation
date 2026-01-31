@@ -59,7 +59,20 @@
             "d:\\epiclibrary\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemreplicationproxyinterface.h",
             "d:\\epiclibrary\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemreplicationproxyinterface.generated.h",
             "d:\\epiclibrary\\ue_5.7\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemcomponent.generated.h",
-            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\unrealeditor\\inc\\simulation\\uht\\simulationentitycomponent.generated.h"
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\unrealeditor\\inc\\simulation\\uht\\simulationentitycomponent.generated.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\net\\iris\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\github\\simulation\\simulation\\source\\simulation\\public\\entityattributeset.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\engine\\public\\net\\unrealnetwork.h",
+            "d:\\epiclibrary\\ue_5.7\\engine\\source\\runtime\\net\\core\\public\\net\\core\\propertyconditions\\propertyconditions.h",
+            "d:\\github\\simulation\\simulation\\intermediate\\build\\win64\\unrealeditor\\inc\\simulation\\uht\\entityattributeset.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

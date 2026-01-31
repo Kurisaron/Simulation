@@ -21,7 +21,8 @@ struct FGameplayAttributeData;
 // ********** Begin Class UHealthAttributeSet ******************************************************
 #define FID_Github_Simulation_Simulation_Source_Simulation_Public_HealthAttributeSet_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnRep_MaxHealth); \
-	DECLARE_FUNCTION(execOnRep_CurrentHealth);
+	DECLARE_FUNCTION(execOnRep_CurrentHealth); \
+	DECLARE_FUNCTION(execGetDefaultHealth);
 
 
 struct Z_Construct_UClass_UHealthAttributeSet_Statics;

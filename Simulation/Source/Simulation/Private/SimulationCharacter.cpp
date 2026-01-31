@@ -3,23 +3,38 @@
 
 #include "SimulationCharacter.h"
 #include "SimulationEntityComponent.h"
+#include "PhysicsControlComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "Engine/Engine.h"
+#include "UObject/ConstructorHelpers.h"
 
 // Sets default values
 ASimulationCharacter::ASimulationCharacter(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	SetReplicates(true);
+	SetReplicateMovement(true);
+	
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	// Set this character so that it can be damaged
-	SetCanBeDamaged(true);
 
 	// Create the simulation entity component (subtype of ability system component)
 	EntityComponent = CreateDefaultSubobject<USimulationEntityComponent>(TEXT("SEC"));
 
-	// Set physics transform update mode on character mesh to "component transform is kinematic
-	// This is necessary for physics control
+	UCapsuleComponent* CharacterCapsule = GetCapsuleComponent();
+	CharacterCapsule->SetCapsuleRadius(4);
+	
 	USkeletalMeshComponent* CharacterMesh = GetMesh();
-	CharacterMesh->PhysicsTransformUpdateMode = EPhysicsTransformUpdateMode::Type::ComponentTransformIsKinematic;
+	CharacterMesh->SetIsReplicated(true);
+	CharacterMesh->bReplicatePhysicsToAutonomousProxy = true;
+	CharacterMesh->PhysicsTransformUpdateMode = EPhysicsTransformUpdateMode::Type::ComponentTransformIsKinematic; // Set physics transform update mode on character mesh to "component transform is kinematic". This is necessary for physics control
+	static ConstructorHelpers::FObjectFinder<USkeletalMesh> DefaultCharacterMesh(TEXT("/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple"));
+	if (DefaultCharacterMesh.Succeeded())
+	{
+		CharacterMesh->SetSkeletalMeshAsset(DefaultCharacterMesh.Object);
+	}
+
+	UCharacterMovementComponent* MovementComp = GetCharacterMovement();
+	MovementComp->NetworkSmoothingMode = ENetworkSmoothingMode::Disabled;
 
 	// Create the physics control component
 	PhysicsControlComponent = CreateDefaultSubobject<UPhysicsControlComponent>(TEXT("PhysicsControl"));
@@ -31,32 +46,17 @@ ASimulationCharacter::ASimulationCharacter(const FObjectInitializer& ObjectIniti
 void ASimulationCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	if (EntityComponent)
+	{
+		EntityComponent->InitAbilityActorInfo(this, this);
+	}
+
 	// Enable physics control on character mesh
 	PhysicsControlComponent->CreateControlsAndBodyModifiersFromPhysicsControlAsset(GetMesh(), nullptr, FName());
-
-}
-
-void ASimulationCharacter::PossessedBy(AController* NewController)
-{
-	Super::PossessedBy(NewController);
-
-	if (EntityComponent)
-	{
-		EntityComponent->InitAbilityActorInfo(this, this);
-	}
 	
 }
 
-void ASimulationCharacter::OnRep_PlayerState()
-{
-	Super::OnRep_PlayerState();
-
-	if (EntityComponent)
-	{
-		EntityComponent->InitAbilityActorInfo(this, this);
-	}
-}
 
 // Called to bind functionality to input
 void ASimulationCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -69,7 +69,8 @@ void ASimulationCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 void ASimulationCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	
+	// DebugNetRoles();
 }
 
 void ASimulationCharacter::Move(FVector2D MoveInput)
@@ -79,19 +80,31 @@ void ASimulationCharacter::Move(FVector2D MoveInput)
 	AddMovementInput(MovementForward, MoveInput.Y);
 	FVector MovementRight = UKismetMathLibrary::GetRightVector(FRotator(0.0, ControlRotation.Yaw, ControlRotation.Roll));
 	AddMovementInput(MovementRight, MoveInput.X);
-}
 
-float ASimulationCharacter::TakeDamage(
-	float DamageAmount,
-	FDamageEvent const& DamageEvent,
-	AController* EventInstigator,
-	AActor* DamageCauser)
-{
-	float ActualDamage = EntityComponent->TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
-
-	return Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 }
 
 UAbilitySystemComponent* ASimulationCharacter::GetAbilitySystemComponent() const { return EntityComponent; }
 
 UPhysicsControlComponent* ASimulationCharacter::GetPhysicsControl() const { return PhysicsControlComponent; }
+
+void ASimulationCharacter::DebugNetRoles()
+{
+	FVector DrawPosition = GetRootComponent()->GetComponentLocation();
+	DrawDebugSphere(GetWorld(), DrawPosition, 50.0f, 16, GetNetRoleColor(GetLocalRole()));
+	DrawDebugSphere(GetWorld(), DrawPosition, 100.0f, 16, GetNetRoleColor(GetRemoteRole()));
+}
+
+FColor ASimulationCharacter::GetNetRoleColor(ENetRole NetRole) const
+{
+	switch (NetRole)
+	{
+	case ENetRole::ROLE_Authority:
+		return FColor::Yellow;
+	case ENetRole::ROLE_AutonomousProxy:
+		return FColor::Cyan;
+	case ENetRole::ROLE_SimulatedProxy:
+		return FColor::Magenta;
+	default:
+		return FColor::Red;
+	}
+}

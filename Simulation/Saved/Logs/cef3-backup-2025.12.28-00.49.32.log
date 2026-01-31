@@ -1,8 +1,0 @@
-[8912:24240:1227/154413.044:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[8912:24240:1227/154420.927:ERROR:device_event_log_impl.cc(196)] [15:44:20.698] Display: display_layout.cc:554 PlacementList must be sorted by first 8 bits of display_id
-[8912:24240:1227/154423.490:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[8912:24240:1227/154510.545:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[8912:24240:1227/154512.666:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
-[8912:24240:1227/154512.668:ERROR:device_event_log_impl.cc(196)] [15:45:12.667] Display: display_layout.cc:554 PlacementList must be sorted by first 8 bits of display_id
-[8912:24240:1227/154557.107:ERROR:device_event_log_impl.cc(196)] [15:45:57.107] Display: display_layout.cc:554 PlacementList must be sorted by first 8 bits of display_id
-[8912:24240:1227/164932.155:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
