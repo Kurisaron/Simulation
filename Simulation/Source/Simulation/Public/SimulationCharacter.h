@@ -50,7 +50,7 @@ public:
 	// Called to return physics control component
 	virtual UPhysicsControlComponent* GetPhysicsControl() const;
 
-public:
+protected:
 
 	void DebugNetRoles();
 

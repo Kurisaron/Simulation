@@ -1,0 +1,5 @@
+[9340:23680:0201/004048.361:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[9340:23680:0201/004048.595:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[9340:23680:0201/004109.214:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[9340:23680:0201/004111.944:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[9340:23680:0201/004945.929:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

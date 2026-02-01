@@ -8,8 +8,6 @@
 
 class UEntityAttributeSet;
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnAttributeAdded, USimulationEntityComponent*, EntityComponent, UEntityAttributeSet*, AttributeSet);
-
 /**
  * The Simulation Entity Component is a subtype of Ability System Component that designates an Actor as a simulation entity. 
  */
@@ -32,11 +30,6 @@ class SIMULATION_API USimulationEntityComponent : public UAbilitySystemComponent
 
 public:
 
-	UPROPERTY(BlueprintAssignable, Category = "Simulation Entity|Attributes")
-	FOnAttributeAdded OnAttributeAdded;
-
-public:
-
 	USimulationEntityComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
 
 	virtual void BeginPlay() override;
@@ -44,19 +37,33 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Simulation Entity")
 	FName GetEntityName() const;
 
+protected:
+
+	/** Sets this entity's name. Runs only on the server */
+	virtual void SetEntityName(FName NewName);
+
+	/** RepNotify for changes made to entity name */
+	UFUNCTION()
+	virtual void OnRep_EntityName(FName OldName);
+
+	/**
+	 * Performs whenever the entity's name is changed.
+	 * (SERVER) Runs when the entity's name is set
+	 * (CLIENT) Runs during RepNotify for the entity's name
+	 */
+	virtual void OnEntityNameChanged(FName OldName);
+
+	FName GetRandomEntityName() const;
+
+	virtual void AddAttributeSet(UEntityAttributeSet* AttributeSet);
+
 public:
 
 	UFUNCTION(BlueprintCallable, Category = "Simulation Entity|Attributes")
-	virtual void AddAttributeSet(UEntityAttributeSet* AttributeSet);
+	virtual void AddAttributeSet(TSubclassOf<UEntityAttributeSet> AttributeSetClass);
 
 	UFUNCTION(BlueprintCallable, Category = "Simulation Entity|Attributes")
-	virtual void AddAttributeSets(TArray<UEntityAttributeSet*> AttributeSets);
-
-	UFUNCTION(BlueprintCallable, Category = "Simulation Entity|Attributes")
-	virtual void AddAttributeSetByClass(TSubclassOf<UEntityAttributeSet> AttributeSetClass);
-
-	UFUNCTION(BlueprintCallable, Category = "Simulation Entity|Attributes")
-	virtual void AddAttributeSetsByClass(TArray<TSubclassOf<UEntityAttributeSet>> AttributeSetClasses);
+	virtual void AddAttributeSets(TArray<TSubclassOf<UEntityAttributeSet>> AttributeSetClasses);
 
 protected:
 
@@ -100,10 +107,6 @@ public:
 
 	UFUNCTION(BlueprintPure, Category = "Simulation Entity|Replication")
 	EGameplayEffectReplicationMode GetDefaultReplicationMode() const;
-
-	/** RepNotify for changes made to current health.*/
-	UFUNCTION()
-	virtual void OnRep_EntityName();
 
 	/** Property replication */
 	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;

@@ -26,103 +26,34 @@ GAMEPLAYABILITIES_API UEnum* Z_Construct_UEnum_GameplayAbilities_EGameplayEffect
 SIMULATION_API UClass* Z_Construct_UClass_UEntityAttributeSet_NoRegister();
 SIMULATION_API UClass* Z_Construct_UClass_USimulationEntityComponent();
 SIMULATION_API UClass* Z_Construct_UClass_USimulationEntityComponent_NoRegister();
-SIMULATION_API UFunction* Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature();
 UPackage* Z_Construct_UPackage__Script_Simulation();
 // ********** End Cross Module References **********************************************************
-
-// ********** Begin Delegate FOnAttributeAdded *****************************************************
-struct Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics
-{
-	struct _Script_Simulation_eventOnAttributeAdded_Parms
-	{
-		USimulationEntityComponent* EntityComponent;
-		UEntityAttributeSet* AttributeSet;
-	};
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/SimulationEntityComponent.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EntityComponent_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeSet_MetaData[] = {
-		{ "EditInline", "true" },
-	};
-#endif // WITH_METADATA
-
-// ********** Begin Delegate FOnAttributeAdded constinit property declarations *********************
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_EntityComponent;
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_AttributeSet;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-// ********** End Delegate FOnAttributeAdded constinit property declarations ***********************
-	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
-};
-
-// ********** Begin Delegate FOnAttributeAdded Property Definitions ********************************
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::NewProp_EntityComponent = { "EntityComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_Simulation_eventOnAttributeAdded_Parms, EntityComponent), Z_Construct_UClass_USimulationEntityComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EntityComponent_MetaData), NewProp_EntityComponent_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::NewProp_AttributeSet = { "AttributeSet", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_Simulation_eventOnAttributeAdded_Parms, AttributeSet), Z_Construct_UClass_UEntityAttributeSet_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeSet_MetaData), NewProp_AttributeSet_MetaData) };
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::NewProp_EntityComponent,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::NewProp_AttributeSet,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::PropPointers) < 2048);
-// ********** End Delegate FOnAttributeAdded Property Definitions **********************************
-const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_Simulation, nullptr, "OnAttributeAdded__DelegateSignature", 	Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::PropPointers, 
-	UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::PropPointers), 
-sizeof(Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::_Script_Simulation_eventOnAttributeAdded_Parms),
-RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::Function_MetaDataParams)},  };
-static_assert(sizeof(Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::_Script_Simulation_eventOnAttributeAdded_Parms) < MAX_uint16);
-UFunction* Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-void FOnAttributeAdded_DelegateWrapper(const FMulticastScriptDelegate& OnAttributeAdded, USimulationEntityComponent* EntityComponent, UEntityAttributeSet* AttributeSet)
-{
-	struct _Script_Simulation_eventOnAttributeAdded_Parms
-	{
-		USimulationEntityComponent* EntityComponent;
-		UEntityAttributeSet* AttributeSet;
-	};
-	_Script_Simulation_eventOnAttributeAdded_Parms Parms;
-	Parms.EntityComponent=EntityComponent;
-	Parms.AttributeSet=AttributeSet;
-	OnAttributeAdded.ProcessMulticastDelegate<UObject>(&Parms);
-}
-// ********** End Delegate FOnAttributeAdded *******************************************************
 
 // ********** Begin Class USimulationEntityComponent Function AddAttributeSet **********************
 struct Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSet_Statics
 {
 	struct SimulationEntityComponent_eventAddAttributeSet_Parms
 	{
-		UEntityAttributeSet* AttributeSet;
+		TSubclassOf<UEntityAttributeSet> AttributeSetClass;
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Simulation Entity|Attributes" },
 		{ "ModuleRelativePath", "Public/SimulationEntityComponent.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeSet_MetaData[] = {
-		{ "EditInline", "true" },
-	};
 #endif // WITH_METADATA
 
 // ********** Begin Function AddAttributeSet constinit property declarations ***********************
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_AttributeSet;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_AttributeSetClass;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Function AddAttributeSet constinit property declarations *************************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 
 // ********** Begin Function AddAttributeSet Property Definitions **********************************
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSet_Statics::NewProp_AttributeSet = { "AttributeSet", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(SimulationEntityComponent_eventAddAttributeSet_Parms, AttributeSet), Z_Construct_UClass_UEntityAttributeSet_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeSet_MetaData), NewProp_AttributeSet_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSet_Statics::NewProp_AttributeSetClass = { "AttributeSetClass", nullptr, (EPropertyFlags)0x0014000000000080, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(SimulationEntityComponent_eventAddAttributeSet_Parms, AttributeSetClass), Z_Construct_UClass_UClass_NoRegister, Z_Construct_UClass_UEntityAttributeSet_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSet_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSet_Statics::NewProp_AttributeSet,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSet_Statics::NewProp_AttributeSetClass,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSet_Statics::PropPointers) < 2048);
 // ********** End Function AddAttributeSet Property Definitions ************************************
@@ -142,97 +73,42 @@ UFunction* Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSet()
 }
 DEFINE_FUNCTION(USimulationEntityComponent::execAddAttributeSet)
 {
-	P_GET_OBJECT(UEntityAttributeSet,Z_Param_AttributeSet);
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->AddAttributeSet(Z_Param_AttributeSet);
-	P_NATIVE_END;
-}
-// ********** End Class USimulationEntityComponent Function AddAttributeSet ************************
-
-// ********** Begin Class USimulationEntityComponent Function AddAttributeSetByClass ***************
-struct Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics
-{
-	struct SimulationEntityComponent_eventAddAttributeSetByClass_Parms
-	{
-		TSubclassOf<UEntityAttributeSet> AttributeSetClass;
-	};
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "Simulation Entity|Attributes" },
-		{ "ModuleRelativePath", "Public/SimulationEntityComponent.h" },
-	};
-#endif // WITH_METADATA
-
-// ********** Begin Function AddAttributeSetByClass constinit property declarations ****************
-	static const UECodeGen_Private::FClassPropertyParams NewProp_AttributeSetClass;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-// ********** End Function AddAttributeSetByClass constinit property declarations ******************
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-
-// ********** Begin Function AddAttributeSetByClass Property Definitions ***************************
-const UECodeGen_Private::FClassPropertyParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::NewProp_AttributeSetClass = { "AttributeSetClass", nullptr, (EPropertyFlags)0x0014000000000080, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(SimulationEntityComponent_eventAddAttributeSetByClass_Parms, AttributeSetClass), Z_Construct_UClass_UClass_NoRegister, Z_Construct_UClass_UEntityAttributeSet_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::NewProp_AttributeSetClass,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::PropPointers) < 2048);
-// ********** End Function AddAttributeSetByClass Property Definitions *****************************
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_USimulationEntityComponent, nullptr, "AddAttributeSetByClass", 	Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::PropPointers, 
-	UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::PropPointers), 
-sizeof(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::SimulationEntityComponent_eventAddAttributeSetByClass_Parms),
-RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::Function_MetaDataParams), Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::Function_MetaDataParams)},  };
-static_assert(sizeof(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::SimulationEntityComponent_eventAddAttributeSetByClass_Parms) < MAX_uint16);
-UFunction* Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(USimulationEntityComponent::execAddAttributeSetByClass)
-{
 	P_GET_OBJECT(UClass,Z_Param_AttributeSetClass);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->AddAttributeSetByClass(Z_Param_AttributeSetClass);
+	P_THIS->AddAttributeSet(Z_Param_AttributeSetClass);
 	P_NATIVE_END;
 }
-// ********** End Class USimulationEntityComponent Function AddAttributeSetByClass *****************
+// ********** End Class USimulationEntityComponent Function AddAttributeSet ************************
 
 // ********** Begin Class USimulationEntityComponent Function AddAttributeSets *********************
 struct Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics
 {
 	struct SimulationEntityComponent_eventAddAttributeSets_Parms
 	{
-		TArray<UEntityAttributeSet*> AttributeSets;
+		TArray<TSubclassOf<UEntityAttributeSet>> AttributeSetClasses;
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Simulation Entity|Attributes" },
 		{ "ModuleRelativePath", "Public/SimulationEntityComponent.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeSets_MetaData[] = {
-		{ "EditInline", "true" },
-	};
 #endif // WITH_METADATA
 
 // ********** Begin Function AddAttributeSets constinit property declarations **********************
-	static const UECodeGen_Private::FObjectPropertyParams NewProp_AttributeSets_Inner;
-	static const UECodeGen_Private::FArrayPropertyParams NewProp_AttributeSets;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_AttributeSetClasses_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_AttributeSetClasses;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Function AddAttributeSets constinit property declarations ************************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 
 // ********** Begin Function AddAttributeSets Property Definitions *********************************
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics::NewProp_AttributeSets_Inner = { "AttributeSets", nullptr, (EPropertyFlags)0x0000000000080000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UEntityAttributeSet_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics::NewProp_AttributeSets = { "AttributeSets", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(SimulationEntityComponent_eventAddAttributeSets_Parms, AttributeSets), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeSets_MetaData), NewProp_AttributeSets_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics::NewProp_AttributeSetClasses_Inner = { "AttributeSetClasses", nullptr, (EPropertyFlags)0x0004000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UClass_NoRegister, Z_Construct_UClass_UEntityAttributeSet_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics::NewProp_AttributeSetClasses = { "AttributeSetClasses", nullptr, (EPropertyFlags)0x0014000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(SimulationEntityComponent_eventAddAttributeSets_Parms, AttributeSetClasses), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics::NewProp_AttributeSets_Inner,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics::NewProp_AttributeSets,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics::NewProp_AttributeSetClasses_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics::NewProp_AttributeSetClasses,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets_Statics::PropPointers) < 2048);
 // ********** End Function AddAttributeSets Property Definitions ***********************************
@@ -252,68 +128,13 @@ UFunction* Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets()
 }
 DEFINE_FUNCTION(USimulationEntityComponent::execAddAttributeSets)
 {
-	P_GET_TARRAY(UEntityAttributeSet*,Z_Param_AttributeSets);
-	P_FINISH;
-	P_NATIVE_BEGIN;
-	P_THIS->AddAttributeSets(Z_Param_AttributeSets);
-	P_NATIVE_END;
-}
-// ********** End Class USimulationEntityComponent Function AddAttributeSets ***********************
-
-// ********** Begin Class USimulationEntityComponent Function AddAttributeSetsByClass **************
-struct Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics
-{
-	struct SimulationEntityComponent_eventAddAttributeSetsByClass_Parms
-	{
-		TArray<TSubclassOf<UEntityAttributeSet>> AttributeSetClasses;
-	};
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "Simulation Entity|Attributes" },
-		{ "ModuleRelativePath", "Public/SimulationEntityComponent.h" },
-	};
-#endif // WITH_METADATA
-
-// ********** Begin Function AddAttributeSetsByClass constinit property declarations ***************
-	static const UECodeGen_Private::FClassPropertyParams NewProp_AttributeSetClasses_Inner;
-	static const UECodeGen_Private::FArrayPropertyParams NewProp_AttributeSetClasses;
-	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-// ********** End Function AddAttributeSetsByClass constinit property declarations *****************
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-
-// ********** Begin Function AddAttributeSetsByClass Property Definitions **************************
-const UECodeGen_Private::FClassPropertyParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::NewProp_AttributeSetClasses_Inner = { "AttributeSetClasses", nullptr, (EPropertyFlags)0x0004000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UClass_NoRegister, Z_Construct_UClass_UEntityAttributeSet_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::NewProp_AttributeSetClasses = { "AttributeSetClasses", nullptr, (EPropertyFlags)0x0014000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(SimulationEntityComponent_eventAddAttributeSetsByClass_Parms, AttributeSetClasses), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::NewProp_AttributeSetClasses_Inner,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::NewProp_AttributeSetClasses,
-};
-static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::PropPointers) < 2048);
-// ********** End Function AddAttributeSetsByClass Property Definitions ****************************
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_USimulationEntityComponent, nullptr, "AddAttributeSetsByClass", 	Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::PropPointers, 
-	UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::PropPointers), 
-sizeof(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::SimulationEntityComponent_eventAddAttributeSetsByClass_Parms),
-RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::Function_MetaDataParams), Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::Function_MetaDataParams)},  };
-static_assert(sizeof(Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::SimulationEntityComponent_eventAddAttributeSetsByClass_Parms) < MAX_uint16);
-UFunction* Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-DEFINE_FUNCTION(USimulationEntityComponent::execAddAttributeSetsByClass)
-{
 	P_GET_TARRAY(TSubclassOf<UEntityAttributeSet>,Z_Param_AttributeSetClasses);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->AddAttributeSetsByClass(Z_Param_AttributeSetClasses);
+	P_THIS->AddAttributeSets(Z_Param_AttributeSetClasses);
 	P_NATIVE_END;
 }
-// ********** End Class USimulationEntityComponent Function AddAttributeSetsByClass ****************
+// ********** End Class USimulationEntityComponent Function AddAttributeSets ***********************
 
 // ********** Begin Class USimulationEntityComponent Function GetDefaultReplicationMode ************
 struct Z_Construct_UFunction_USimulationEntityComponent_GetDefaultReplicationMode_Statics
@@ -492,26 +313,41 @@ DEFINE_FUNCTION(USimulationEntityComponent::execIsSimulationEntity)
 // ********** Begin Class USimulationEntityComponent Function OnRep_EntityName *********************
 struct Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics
 {
+	struct SimulationEntityComponent_eventOnRep_EntityName_Parms
+	{
+		FName OldName;
+	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/** RepNotify for changes made to current health.*/" },
+		{ "Comment", "/** RepNotify for changes made to entity name */" },
 #endif
 		{ "ModuleRelativePath", "Public/SimulationEntityComponent.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "RepNotify for changes made to current health." },
+		{ "ToolTip", "RepNotify for changes made to entity name" },
 #endif
 	};
 #endif // WITH_METADATA
 
 // ********** Begin Function OnRep_EntityName constinit property declarations **********************
+	static const UECodeGen_Private::FNamePropertyParams NewProp_OldName;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Function OnRep_EntityName constinit property declarations ************************
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_USimulationEntityComponent, nullptr, "OnRep_EntityName", 	nullptr, 
-	0, 
-0,
-RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::Function_MetaDataParams), Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::Function_MetaDataParams)},  };
+
+// ********** Begin Function OnRep_EntityName Property Definitions *********************************
+const UECodeGen_Private::FNamePropertyParams Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::NewProp_OldName = { "OldName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(SimulationEntityComponent_eventOnRep_EntityName_Parms, OldName), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::NewProp_OldName,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::PropPointers) < 2048);
+// ********** End Function OnRep_EntityName Property Definitions ***********************************
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_USimulationEntityComponent, nullptr, "OnRep_EntityName", 	Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::PropPointers, 
+	UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::PropPointers), 
+sizeof(Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::SimulationEntityComponent_eventOnRep_EntityName_Parms),
+RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::Function_MetaDataParams), Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName_Statics::SimulationEntityComponent_eventOnRep_EntityName_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -523,9 +359,10 @@ UFunction* Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName()
 }
 DEFINE_FUNCTION(USimulationEntityComponent::execOnRep_EntityName)
 {
+	P_GET_PROPERTY(FNameProperty,Z_Param_OldName);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->OnRep_EntityName();
+	P_THIS->OnRep_EntityName(Z_Param_OldName);
 	P_NATIVE_END;
 }
 // ********** End Class USimulationEntityComponent Function OnRep_EntityName ***********************
@@ -872,10 +709,6 @@ struct Z_Construct_UClass_USimulationEntityComponent_Statics
 		{ "Category", "Simulation Entity|Replication" },
 		{ "ModuleRelativePath", "Public/SimulationEntityComponent.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnAttributeAdded_MetaData[] = {
-		{ "Category", "Simulation Entity|Attributes" },
-		{ "ModuleRelativePath", "Public/SimulationEntityComponent.h" },
-	};
 #endif // WITH_METADATA
 
 // ********** Begin Class USimulationEntityComponent constinit property declarations ***************
@@ -886,14 +719,11 @@ struct Z_Construct_UClass_USimulationEntityComponent_Statics
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_bDefault_CanBeDamaged;
 	static const UECodeGen_Private::FBytePropertyParams NewProp_DefaultReplicationMode_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_DefaultReplicationMode;
-	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnAttributeAdded;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 // ********** End Class USimulationEntityComponent constinit property declarations *****************
 	static constexpr UE::CodeGen::FClassNativeFunction Funcs[] = {
 		{ .NameUTF8 = UTF8TEXT("AddAttributeSet"), .Pointer = &USimulationEntityComponent::execAddAttributeSet },
-		{ .NameUTF8 = UTF8TEXT("AddAttributeSetByClass"), .Pointer = &USimulationEntityComponent::execAddAttributeSetByClass },
 		{ .NameUTF8 = UTF8TEXT("AddAttributeSets"), .Pointer = &USimulationEntityComponent::execAddAttributeSets },
-		{ .NameUTF8 = UTF8TEXT("AddAttributeSetsByClass"), .Pointer = &USimulationEntityComponent::execAddAttributeSetsByClass },
 		{ .NameUTF8 = UTF8TEXT("GetDefaultReplicationMode"), .Pointer = &USimulationEntityComponent::execGetDefaultReplicationMode },
 		{ .NameUTF8 = UTF8TEXT("GetEntityName"), .Pointer = &USimulationEntityComponent::execGetEntityName },
 		{ .NameUTF8 = UTF8TEXT("IsSimulationEntity"), .Pointer = &USimulationEntityComponent::execIsSimulationEntity },
@@ -904,14 +734,12 @@ struct Z_Construct_UClass_USimulationEntityComponent_Statics
 	};
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSet, "AddAttributeSet" }, // 2256024040
-		{ &Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetByClass, "AddAttributeSetByClass" }, // 1313385937
-		{ &Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets, "AddAttributeSets" }, // 1559970858
-		{ &Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSetsByClass, "AddAttributeSetsByClass" }, // 1291111821
+		{ &Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSet, "AddAttributeSet" }, // 995779538
+		{ &Z_Construct_UFunction_USimulationEntityComponent_AddAttributeSets, "AddAttributeSets" }, // 755845361
 		{ &Z_Construct_UFunction_USimulationEntityComponent_GetDefaultReplicationMode, "GetDefaultReplicationMode" }, // 114294611
 		{ &Z_Construct_UFunction_USimulationEntityComponent_GetEntityName, "GetEntityName" }, // 3648034062
 		{ &Z_Construct_UFunction_USimulationEntityComponent_IsSimulationEntity, "IsSimulationEntity" }, // 80802785
-		{ &Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName, "OnRep_EntityName" }, // 1589531415
+		{ &Z_Construct_UFunction_USimulationEntityComponent_OnRep_EntityName, "OnRep_EntityName" }, // 3491498553
 		{ &Z_Construct_UFunction_USimulationEntityComponent_TakeAnyDamage, "TakeAnyDamage" }, // 2000532438
 		{ &Z_Construct_UFunction_USimulationEntityComponent_TakePointDamage, "TakePointDamage" }, // 64368715
 		{ &Z_Construct_UFunction_USimulationEntityComponent_TakeRadialDamage, "TakeRadialDamage" }, // 731375308
@@ -934,7 +762,6 @@ void Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_bDefault_Can
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_bDefault_CanBeDamaged = { "bDefault_CanBeDamaged", nullptr, (EPropertyFlags)0x0040000000010001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(USimulationEntityComponent), &Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_bDefault_CanBeDamaged_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bDefault_CanBeDamaged_MetaData), NewProp_bDefault_CanBeDamaged_MetaData) };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_DefaultReplicationMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_DefaultReplicationMode = { "DefaultReplicationMode", nullptr, (EPropertyFlags)0x0040000000010015, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USimulationEntityComponent, DefaultReplicationMode), Z_Construct_UEnum_GameplayAbilities_EGameplayEffectReplicationMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultReplicationMode_MetaData), NewProp_DefaultReplicationMode_MetaData) }; // 3513395660
-const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_OnAttributeAdded = { "OnAttributeAdded", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USimulationEntityComponent, OnAttributeAdded), Z_Construct_UDelegateFunction_Simulation_OnAttributeAdded__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnAttributeAdded_MetaData), NewProp_OnAttributeAdded_MetaData) }; // 3225158446
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USimulationEntityComponent_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_EntityName,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_DefaultAttributes_Inner,
@@ -942,7 +769,6 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USimulati
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_bDefault_CanBeDamaged,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_DefaultReplicationMode_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_DefaultReplicationMode,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USimulationEntityComponent_Statics::NewProp_OnAttributeAdded,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_USimulationEntityComponent_Statics::PropPointers) < 2048);
 // ********** End Class USimulationEntityComponent Property Definitions ****************************
@@ -996,10 +822,10 @@ USimulationEntityComponent::~USimulationEntityComponent() {}
 struct Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h__Script_Simulation_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_USimulationEntityComponent, USimulationEntityComponent::StaticClass, TEXT("USimulationEntityComponent"), &Z_Registration_Info_UClass_USimulationEntityComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USimulationEntityComponent), 319356156U) },
+		{ Z_Construct_UClass_USimulationEntityComponent, USimulationEntityComponent::StaticClass, TEXT("USimulationEntityComponent"), &Z_Registration_Info_UClass_USimulationEntityComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USimulationEntityComponent), 1561906918U) },
 	};
 }; // Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h__Script_Simulation_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h__Script_Simulation_1680293763{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h__Script_Simulation_1560263651{
 	TEXT("/Script/Simulation"),
 	Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h__Script_Simulation_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationEntityComponent_h__Script_Simulation_Statics::ClassInfo),
 	nullptr, 0,

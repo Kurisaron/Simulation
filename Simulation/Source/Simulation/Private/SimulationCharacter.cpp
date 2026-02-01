@@ -21,9 +21,12 @@ ASimulationCharacter::ASimulationCharacter(const FObjectInitializer& ObjectIniti
 	EntityComponent = CreateDefaultSubobject<USimulationEntityComponent>(TEXT("SEC"));
 
 	UCapsuleComponent* CharacterCapsule = GetCapsuleComponent();
-	CharacterCapsule->SetCapsuleRadius(4);
+	CharacterCapsule->SetCapsuleRadius(4.0f);
+	CharacterCapsule->SetCapsuleHalfHeight(88.0f);
 	
 	USkeletalMeshComponent* CharacterMesh = GetMesh();
+	CharacterMesh->SetRelativeLocation(FVector(0.0, 0.0, -CharacterCapsule->GetUnscaledCapsuleHalfHeight()));
+	CharacterMesh->SetRelativeRotation(FRotator(0.0, -90.0, 0.0));
 	CharacterMesh->SetIsReplicated(true);
 	CharacterMesh->bReplicatePhysicsToAutonomousProxy = true;
 	CharacterMesh->PhysicsTransformUpdateMode = EPhysicsTransformUpdateMode::Type::ComponentTransformIsKinematic; // Set physics transform update mode on character mesh to "component transform is kinematic". This is necessary for physics control

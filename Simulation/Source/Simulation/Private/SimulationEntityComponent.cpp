@@ -18,6 +18,8 @@ USimulationEntityComponent::USimulationEntityComponent(const FObjectInitializer&
 			Owner->OnTakeAnyDamage.AddDynamic(this, &USimulationEntityComponent::TakeAnyDamage);
 			Owner->OnTakePointDamage.AddDynamic(this, &USimulationEntityComponent::TakePointDamage);
 			Owner->OnTakeRadialDamage.AddDynamic(this, &USimulationEntityComponent::TakeRadialDamage);
+
+			SetEntityName(GetRandomEntityName());
 		}
 	}
 }
@@ -26,6 +28,10 @@ void USimulationEntityComponent::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	if (GetOwner()->GetLocalRole() == ENetRole::ROLE_Authority)
+	{
+		AddAttributeSets(DefaultAttributes);
+	}
 }
 
 FName USimulationEntityComponent::GetEntityName() const
@@ -33,44 +39,69 @@ FName USimulationEntityComponent::GetEntityName() const
 	return EntityName;
 }
 
+void USimulationEntityComponent::SetEntityName(FName NewName)
+{
+	if (GetOwner()->GetLocalRole() != ENetRole::ROLE_Authority)
+		return;
+
+	FName OldName = EntityName;
+	EntityName = NewName;
+	OnEntityNameChanged(OldName);
+}
+
+void USimulationEntityComponent::OnRep_EntityName(FName OldName)
+{
+	OnEntityNameChanged(OldName);
+}
+
+void USimulationEntityComponent::OnEntityNameChanged(FName OldName)
+{
+	UE_LOG(LogTemp, Warning, TEXT("[%s] Entity name changed from %s to %s"), *GetOwner()->GetName(), *OldName.ToString(), *EntityName.ToString());
+}
+
+FName USimulationEntityComponent::GetRandomEntityName() const
+{
+	TArray<FName> PossibleNames =
+	{
+		"Sam",
+		"Sue",
+		"Mike"
+	};
+
+	int NameIndex = FMath::RandRange(0, PossibleNames.Num() - 1);
+	return PossibleNames[NameIndex];
+}
+
 void USimulationEntityComponent::AddAttributeSet(UEntityAttributeSet* AttributeSet)
 {
+	if (GetOwner()->GetLocalRole() != ENetRole::ROLE_Authority)
+		return;
+	
 	if (AttributeSet)
 	{
 		AddSpawnedAttribute(AttributeSet);
 
-		OnAttributeAdded.Broadcast(this, AttributeSet);
-
-		/*
-		if (FindAttributeSet(AttributeSetClass))
-		{
-			FString SetClassName = AttributeSetClass->GetName();
-			UE_LOG(LogTemp, Warning, TEXT("[%s] Added %s attribute set"), *GetName(), *SetClassName);
-		}
-		*/
 	}
 
 }
 
-void USimulationEntityComponent::AddAttributeSets(TArray<UEntityAttributeSet*> AttributeSets)
+void USimulationEntityComponent::AddAttributeSet(TSubclassOf<UEntityAttributeSet> AttributeSetClass)
 {
-	for (UEntityAttributeSet* AttributeSet : AttributeSets)
-	{
-		AddAttributeSet(AttributeSet);
-	}
-}
+	if (GetOwner()->GetLocalRole() != ENetRole::ROLE_Authority)
+		return;
 
-void USimulationEntityComponent::AddAttributeSetByClass(TSubclassOf<UEntityAttributeSet> AttributeSetClass)
-{
 	UEntityAttributeSet* NewAttributeSet = NewObject<UEntityAttributeSet>(this, AttributeSetClass);
 	AddAttributeSet(NewAttributeSet);
 }
 
-void USimulationEntityComponent::AddAttributeSetsByClass(TArray<TSubclassOf<UEntityAttributeSet>> AttributeSetClasses)
+void USimulationEntityComponent::AddAttributeSets(TArray<TSubclassOf<UEntityAttributeSet>> AttributeSetClasses)
 {
+	if (GetOwner()->GetLocalRole() != ENetRole::ROLE_Authority)
+		return;
+
 	for (TSubclassOf<UEntityAttributeSet> AttributeSetClass : AttributeSetClasses)
 	{
-		AddAttributeSetByClass(AttributeSetClass);
+		AddAttributeSet(AttributeSetClass);
 	}
 }
 
@@ -82,7 +113,7 @@ void USimulationEntityComponent::TakeAnyDamage(
 	AActor* DamageCauser
 )
 {
-
+	// Insert logic for taking any damage
 }
 
 void USimulationEntityComponent::TakePointDamage(
@@ -97,7 +128,7 @@ void USimulationEntityComponent::TakePointDamage(
 	AActor* DamageCauser
 )
 {
-
+	// Insert logic for taking point damage
 }
 
 void USimulationEntityComponent::TakeRadialDamage(
@@ -110,17 +141,12 @@ void USimulationEntityComponent::TakeRadialDamage(
 	AActor* DamageCauser
 )
 {
-
+	// Insert logic for taking radial damage
 }
 
 EGameplayEffectReplicationMode USimulationEntityComponent::GetDefaultReplicationMode() const
 {
 	return DefaultReplicationMode;
-}
-
-void USimulationEntityComponent::OnRep_EntityName()
-{
-
 }
 
 void USimulationEntityComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
