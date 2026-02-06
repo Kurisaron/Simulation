@@ -1,0 +1,7 @@
+[27360:28048:0203/203001.215:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[27360:28048:0203/203021.883:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[27360:28048:0203/203213.881:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[27360:28048:0203/203229.391:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[22192:4244:0203/203246.651:ERROR:frame_impl.cc(537)] frame 5-8DFF02743DB3939297E82EEBAC0B7585 connection timeout
+[27360:28048:0203/203254.465:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.
+[27360:28048:0203/211431.137:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

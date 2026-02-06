@@ -2,7 +2,6 @@
 
 
 #include "SimulationAIController.h"
-#include "SimulationEntityComponent.h"
 
 ASimulationAIController::ASimulationAIController(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {

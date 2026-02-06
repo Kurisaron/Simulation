@@ -6,18 +6,13 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "GameFramework/Character.h"
 #include "Components/CapsuleComponent.h"
-#include "AbilitySystemInterface.h"
 #include "SimulationCharacter.generated.h"
 
 UCLASS(Abstract, Blueprintable)
 class SIMULATION_API ASimulationCharacter : 
-	public ACharacter, 
-	public IAbilitySystemInterface
+	public ACharacter
 {
 	GENERATED_BODY()
-
-	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Simulation Entity", meta = (AllowPrivateAccess = "true"))
-	class USimulationEntityComponent* EntityComponent;
 
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "Physical Animation", meta = (AllowPrivateAccess = "true"))
 	class UPhysicsControlComponent* PhysicsControlComponent;
@@ -43,9 +38,6 @@ public:
 	// Called to move the character
 	UFUNCTION(BlueprintCallable, Category = "Simulation Character|Movement")
 	virtual void Move(FVector2D MoveInput);
-
-	// Called to return ability system component
-	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
 	// Called to return physics control component
 	virtual UPhysicsControlComponent* GetPhysicsControl() const;

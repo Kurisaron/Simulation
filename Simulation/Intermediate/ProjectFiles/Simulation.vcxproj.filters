@@ -57,28 +57,7 @@
     <Filter Include="Source\Simulation\Private">
       <UniqueIdentifier>{EAA12EC6-8BDB-3C08-BF5F-F0DDAB7A62F6}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Simulation\Private\ArmorAttributeSet.cpp">
-      <Filter>Source\Simulation\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\EntityAbility.cpp">
-      <Filter>Source\Simulation\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\EntityAttributeSet.cpp">
-      <Filter>Source\Simulation\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\EntityEffect.cpp">
-      <Filter>Source\Simulation\Private</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\Faction.cpp">
-      <Filter>Source\Simulation\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\HealthAttributeSet.cpp">
-      <Filter>Source\Simulation\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\NeedAttributeSet.cpp">
-      <Filter>Source\Simulation\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\ShieldAttributeSet.cpp">
       <Filter>Source\Simulation\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationAIController.cpp">
@@ -87,43 +66,16 @@
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationCharacter.cpp">
       <Filter>Source\Simulation\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\SimulationEntityComponent.cpp">
-      <Filter>Source\Simulation\Private</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationPhysicalMaterial.cpp">
       <Filter>Source\Simulation\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationPlayerController.cpp">
       <Filter>Source\Simulation\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\SkillAttributeSet.cpp">
-      <Filter>Source\Simulation\Private</Filter>
-    </ClCompile>
     <Filter Include="Source\Simulation\Public">
       <UniqueIdentifier>{2177B180-B10E-35F4-8B06-4625AA7CBF0D}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\Simulation\Public\ArmorAttributeSet.h">
-      <Filter>Source\Simulation\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Simulation\Public\EntityAbility.h">
-      <Filter>Source\Simulation\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Simulation\Public\EntityAttributeSet.h">
-      <Filter>Source\Simulation\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Simulation\Public\EntityEffect.h">
-      <Filter>Source\Simulation\Public</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\Simulation\Public\Faction.h">
-      <Filter>Source\Simulation\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Simulation\Public\HealthAttributeSet.h">
-      <Filter>Source\Simulation\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Simulation\Public\NeedAttributeSet.h">
-      <Filter>Source\Simulation\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Simulation\Public\ShieldAttributeSet.h">
       <Filter>Source\Simulation\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationAIController.h">
@@ -132,16 +84,10 @@
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationCharacter.h">
       <Filter>Source\Simulation\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\Simulation\Public\SimulationEntityComponent.h">
-      <Filter>Source\Simulation\Public</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationPhysicalMaterial.h">
       <Filter>Source\Simulation\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationPlayerController.h">
-      <Filter>Source\Simulation\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Simulation\Public\SkillAttributeSet.h">
       <Filter>Source\Simulation\Public</Filter>
     </ClInclude>
     <None Include="..\..\Source\Simulation\Simulation.Build.cs">

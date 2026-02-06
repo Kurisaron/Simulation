@@ -5,10 +5,7 @@
 #include "CoreMinimal.h"
 #include "AIController.h"
 #include "Perception/AIPerceptionComponent.h"
-#include "AbilitySystemInterface.h"
 #include "SimulationAIController.generated.h"
-
-class USimulationEntityComponent;
 
 /**
  * AI Controller used by simulation entity NPCs

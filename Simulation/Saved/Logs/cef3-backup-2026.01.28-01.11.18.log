@@ -1,4 +1,0 @@
-[5696:23168:0127/170952.354:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[5696:23168:0127/171003.030:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[5696:23168:0127/171114.156:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[5696:23168:0127/171118.820:ERROR:network_service_instance_impl.cc(608)] Network service crashed, restarting service.

@@ -15,6 +15,7 @@
 #include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/UnrealEditor/Inc/Simulation/UHT/SimulationEntityComponent.gen.cpp"
 #include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/UnrealEditor/Inc/Simulation/UHT/SimulationPlayerController.gen.cpp"
 #include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/UnrealEditor/Inc/Simulation/UHT/SkillAttributeSet.gen.cpp"
+#include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/UnrealEditor/Inc/Simulation/UHT/SkillModule.gen.cpp"
 #include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/x64/UnrealEditor/Development/Simulation/PerModuleInline.gen.cpp"
 #include "D:/Github/Simulation/Simulation/Source/Simulation/Private/EntityAbility.cpp"
 #include "D:/Github/Simulation/Simulation/Source/Simulation/Private/EntityEffect.cpp"

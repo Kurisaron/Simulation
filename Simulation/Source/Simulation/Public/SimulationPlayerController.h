@@ -7,10 +7,6 @@
 #include "EnhancedInputSubsystems.h"
 #include "SimulationPlayerController.generated.h"
 
-struct FActorSpawnParameters;
-struct FAttachmentTransformRules;
-struct FDetachmentTransformRules;
-
 /**
  * Base player controller for this simulation game
  */

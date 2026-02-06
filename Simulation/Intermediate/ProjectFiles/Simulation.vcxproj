@@ -262,28 +262,7 @@
     <None Include="..\..\Simulation.uproject"/>
     <None Include="..\..\Source\Simulation.Target.cs"/>
     <None Include="..\..\Source\SimulationEditor.Target.cs"/>
-    <ClCompile Include="..\..\Source\Simulation\Private\ArmorAttributeSet.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\EntityAbility.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\EntityAttributeSet.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\EntityEffect.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\Faction.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\HealthAttributeSet.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\NeedAttributeSet.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\ShieldAttributeSet.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationAIController.cpp">
@@ -292,32 +271,17 @@
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationCharacter.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\SimulationEntityComponent.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationPhysicalMaterial.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationPlayerController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Simulation\Private\SkillAttributeSet.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Simulation\Public\ArmorAttributeSet.h"/>
-    <ClInclude Include="..\..\Source\Simulation\Public\EntityAbility.h"/>
-    <ClInclude Include="..\..\Source\Simulation\Public\EntityAttributeSet.h"/>
-    <ClInclude Include="..\..\Source\Simulation\Public\EntityEffect.h"/>
     <ClInclude Include="..\..\Source\Simulation\Public\Faction.h"/>
-    <ClInclude Include="..\..\Source\Simulation\Public\HealthAttributeSet.h"/>
-    <ClInclude Include="..\..\Source\Simulation\Public\NeedAttributeSet.h"/>
-    <ClInclude Include="..\..\Source\Simulation\Public\ShieldAttributeSet.h"/>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationAIController.h"/>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationCharacter.h"/>
-    <ClInclude Include="..\..\Source\Simulation\Public\SimulationEntityComponent.h"/>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationPhysicalMaterial.h"/>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationPlayerController.h"/>
-    <ClInclude Include="..\..\Source\Simulation\Public\SkillAttributeSet.h"/>
     <None Include="..\..\Source\Simulation\Simulation.Build.cs"/>
     <ClCompile Include="..\..\Source\Simulation\Simulation.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

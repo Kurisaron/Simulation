@@ -2,9 +2,8 @@
 
 
 #include "SimulationCharacter.h"
-#include "SimulationEntityComponent.h"
-#include "PhysicsControlComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "PhysicsControlComponent.h"
 #include "Engine/Engine.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -16,9 +15,6 @@ ASimulationCharacter::ASimulationCharacter(const FObjectInitializer& ObjectIniti
 	
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
-	// Create the simulation entity component (subtype of ability system component)
-	EntityComponent = CreateDefaultSubobject<USimulationEntityComponent>(TEXT("SEC"));
 
 	UCapsuleComponent* CharacterCapsule = GetCapsuleComponent();
 	CharacterCapsule->SetCapsuleRadius(4.0f);
@@ -50,11 +46,6 @@ void ASimulationCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (EntityComponent)
-	{
-		EntityComponent->InitAbilityActorInfo(this, this);
-	}
-
 	// Enable physics control on character mesh
 	PhysicsControlComponent->CreateControlsAndBodyModifiersFromPhysicsControlAsset(GetMesh(), nullptr, FName());
 	
@@ -73,7 +64,7 @@ void ASimulationCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	// DebugNetRoles();
+	DebugNetRoles();
 }
 
 void ASimulationCharacter::Move(FVector2D MoveInput)
@@ -85,8 +76,6 @@ void ASimulationCharacter::Move(FVector2D MoveInput)
 	AddMovementInput(MovementRight, MoveInput.X);
 
 }
-
-UAbilitySystemComponent* ASimulationCharacter::GetAbilitySystemComponent() const { return EntityComponent; }
 
 UPhysicsControlComponent* ASimulationCharacter::GetPhysicsControl() const { return PhysicsControlComponent; }
 

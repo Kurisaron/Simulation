@@ -11,5 +11,6 @@
 #include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/UnrealEditor/Inc/Simulation/UHT/SimulationAIController.gen.cpp"
 #include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/UnrealEditor/Inc/Simulation/UHT/SimulationCharacter.gen.cpp"
 #include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/UnrealEditor/Inc/Simulation/UHT/SimulationEntityComponent.gen.cpp"
+#include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/UnrealEditor/Inc/Simulation/UHT/SimulationPhysicalMaterial.gen.cpp"
 #include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/UnrealEditor/Inc/Simulation/UHT/SimulationPlayerController.gen.cpp"
 #include "D:/Github/Simulation/Simulation/Intermediate/Build/Win64/UnrealEditor/Inc/Simulation/UHT/SkillAttributeSet.gen.cpp"

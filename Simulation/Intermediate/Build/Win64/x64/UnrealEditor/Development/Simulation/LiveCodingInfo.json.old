@@ -14,6 +14,7 @@
 			"SimulationAIController.gen.cpp.obj",
 			"SimulationCharacter.gen.cpp.obj",
 			"SimulationEntityComponent.gen.cpp.obj",
+			"SimulationPhysicalMaterial.gen.cpp.obj",
 			"SimulationPlayerController.gen.cpp.obj",
 			"SkillAttributeSet.gen.cpp.obj"
 		]
