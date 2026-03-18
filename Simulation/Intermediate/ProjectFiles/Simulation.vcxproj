@@ -262,7 +262,19 @@
     <None Include="..\..\Simulation.uproject"/>
     <None Include="..\..\Source\Simulation.Target.cs"/>
     <None Include="..\..\Source\SimulationEditor.Target.cs"/>
+    <ClCompile Include="..\..\Source\Simulation\Private\EntityAttribute.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\EntityComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\Faction.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\Need.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\NeedComponent.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationAIController.cpp">
@@ -277,11 +289,31 @@
     <ClCompile Include="..\..\Source\Simulation\Private\SimulationPlayerController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\Skill.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\SkillComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\Trait.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Simulation\Private\TraitComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Simulation\Public\EntityAttribute.h"/>
+    <ClInclude Include="..\..\Source\Simulation\Public\EntityComponent.h"/>
     <ClInclude Include="..\..\Source\Simulation\Public\Faction.h"/>
+    <ClInclude Include="..\..\Source\Simulation\Public\Need.h"/>
+    <ClInclude Include="..\..\Source\Simulation\Public\NeedComponent.h"/>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationAIController.h"/>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationCharacter.h"/>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationPhysicalMaterial.h"/>
     <ClInclude Include="..\..\Source\Simulation\Public\SimulationPlayerController.h"/>
+    <ClInclude Include="..\..\Source\Simulation\Public\Skill.h"/>
+    <ClInclude Include="..\..\Source\Simulation\Public\SkillComponent.h"/>
+    <ClInclude Include="..\..\Source\Simulation\Public\Trait.h"/>
+    <ClInclude Include="..\..\Source\Simulation\Public\TraitComponent.h"/>
     <None Include="..\..\Source\Simulation\Simulation.Build.cs"/>
     <ClCompile Include="..\..\Source\Simulation\Simulation.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

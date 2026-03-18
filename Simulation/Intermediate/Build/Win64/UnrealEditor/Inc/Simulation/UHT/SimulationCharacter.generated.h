@@ -15,16 +15,28 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UCameraComponent;
+class UMotionControllerComponent;
+class UPhysicsControlComponent;
+class USceneComponent;
 
 // ********** Begin Class ASimulationCharacter *****************************************************
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetRightHandIK); \
+	DECLARE_FUNCTION(execGetLeftHandIK); \
+	DECLARE_FUNCTION(execGetHeadIK); \
+	DECLARE_FUNCTION(execGetPhysicsControl); \
+	DECLARE_FUNCTION(execGetRightHandController); \
+	DECLARE_FUNCTION(execGetLeftHandController); \
+	DECLARE_FUNCTION(execGetHMD); \
+	DECLARE_FUNCTION(execGetTrackingOrigin); \
 	DECLARE_FUNCTION(execMove);
 
 
 struct Z_Construct_UClass_ASimulationCharacter_Statics;
 SIMULATION_API UClass* Z_Construct_UClass_ASimulationCharacter_NoRegister();
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASimulationCharacter(); \
 	friend struct ::Z_Construct_UClass_ASimulationCharacter_Statics; \
@@ -35,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(ASimulationCharacter)
 
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_13_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ASimulationCharacter(ASimulationCharacter&&) = delete; \
 	ASimulationCharacter(const ASimulationCharacter&) = delete; \
@@ -45,13 +57,13 @@ public: \
 	NO_API virtual ~ASimulationCharacter();
 
 
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_11_PROLOG
-#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_15_GENERATED_BODY \
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_9_PROLOG
+#define FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Github_Simulation_Simulation_Source_Simulation_Public_SimulationCharacter_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

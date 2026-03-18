@@ -2,10 +2,14 @@
 
 
 #include "SimulationCharacter.h"
-#include "GameFramework/CharacterMovementComponent.h"
-#include "PhysicsControlComponent.h"
 #include "Engine/Engine.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "Components/CapsuleComponent.h"
+#include "Camera/CameraComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "MotionControllerComponent.h"
+#include "PhysicsControlComponent.h"
 
 // Sets default values
 ASimulationCharacter::ASimulationCharacter(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
@@ -16,29 +20,104 @@ ASimulationCharacter::ASimulationCharacter(const FObjectInitializer& ObjectIniti
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	// Find and make changes to the character root capsule
 	UCapsuleComponent* CharacterCapsule = GetCapsuleComponent();
-	CharacterCapsule->SetCapsuleRadius(4.0f);
-	CharacterCapsule->SetCapsuleHalfHeight(88.0f);
-	
-	USkeletalMeshComponent* CharacterMesh = GetMesh();
-	CharacterMesh->SetRelativeLocation(FVector(0.0, 0.0, -CharacterCapsule->GetUnscaledCapsuleHalfHeight()));
-	CharacterMesh->SetRelativeRotation(FRotator(0.0, -90.0, 0.0));
-	CharacterMesh->SetIsReplicated(true);
-	CharacterMesh->bReplicatePhysicsToAutonomousProxy = true;
-	CharacterMesh->PhysicsTransformUpdateMode = EPhysicsTransformUpdateMode::Type::ComponentTransformIsKinematic; // Set physics transform update mode on character mesh to "component transform is kinematic". This is necessary for physics control
-	static ConstructorHelpers::FObjectFinder<USkeletalMesh> DefaultCharacterMesh(TEXT("/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple"));
-	if (DefaultCharacterMesh.Succeeded())
+	if (CharacterCapsule)
 	{
-		CharacterMesh->SetSkeletalMeshAsset(DefaultCharacterMesh.Object);
+		CharacterCapsule->SetCapsuleRadius(4.0f);
+		CharacterCapsule->SetCapsuleHalfHeight(88.0f);
+
+		// Find and make changes to the character mesh
+		USkeletalMeshComponent* CharacterMesh = GetMesh();
+		if (CharacterMesh)
+		{
+			CharacterMesh->SetRelativeLocation(FVector(0.0, 0.0, -CharacterCapsule->GetUnscaledCapsuleHalfHeight()));
+			CharacterMesh->SetRelativeRotation(FRotator(0.0, -90.0, 0.0));
+			CharacterMesh->SetIsReplicated(true);
+			CharacterMesh->bReplicatePhysicsToAutonomousProxy = true;
+			CharacterMesh->PhysicsTransformUpdateMode = EPhysicsTransformUpdateMode::Type::ComponentTransformIsKinematic; // Set physics transform update mode on character mesh to "component transform is kinematic". This is necessary for physics control
+			static ConstructorHelpers::FObjectFinder<USkeletalMesh> DefaultCharacterMesh(TEXT("/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple"));
+			if (DefaultCharacterMesh.Succeeded())
+			{
+				CharacterMesh->SetSkeletalMeshAsset(DefaultCharacterMesh.Object);
+			}
+
+			// Create the physics control component
+			PhysicsControlComponent = CreateDefaultSubobject<UPhysicsControlComponent>(TEXT("PhysicsControl"));
+			if (PhysicsControlComponent)
+			{
+				PhysicsControlComponent->SetupAttachment(CharacterMesh);
+				PhysicsControlComponent->SetIsReplicated(true);
+				PhysicsControlComponent->AddTickPrerequisiteActor(this);
+			}
+		}
+
+		// Create the VR tracking origin
+		TrackingOrigin = CreateDefaultSubobject<USceneComponent>(TEXT("VR Tracking Origin"));
+		if (TrackingOrigin)
+		{
+			TrackingOrigin->SetupAttachment(CharacterCapsule);
+			TrackingOrigin->SetRelativeLocation(FVector(0.0, 0.0, -CharacterCapsule->GetUnscaledCapsuleHalfHeight()));
+
+			// Create the HMD camera
+			HMD = CreateDefaultSubobject<UCameraComponent>(TEXT("HMD Camera"));
+			if (HMD)
+			{
+				HMD->SetupAttachment(TrackingOrigin);
+
+				// Create the IK target for the head
+				HeadIK = CreateDefaultSubobject<USceneComponent>(TEXT("Head IK Target"));
+				if (HeadIK)
+				{
+					HeadIK->SetupAttachment(HMD);
+					HeadIK->SetRelativeLocation(FVector(-10.0, 0.0, -10.0));
+					HeadIK->SetRelativeRotation(FRotator(90.0, 0.0, 90.0));
+				}
+			}
+
+			// Create the left hand motion controller
+			LeftHandController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("Left Hand Controller"));
+			if (LeftHandController)
+			{
+				LeftHandController->SetupAttachment(TrackingOrigin);
+				LeftHandController->SetTrackingSource(EControllerHand::Left);
+
+				// Create the IK target for the left hand
+				LeftHandIK = CreateDefaultSubobject<USceneComponent>(TEXT("Left Hand IK Target"));
+				if (LeftHandIK)
+				{
+					LeftHandIK->SetupAttachment(LeftHandController);
+					LeftHandIK->SetRelativeLocation(FVector(0.0, 0.0, 10.0));
+					LeftHandIK->SetRelativeRotation(FRotator(-90.0, 0.0, 180.0));
+				}
+			}
+
+			// Create the right hand motion controller
+			RightHandController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("Right Hand Controller"));
+			if (RightHandController)
+			{
+				RightHandController->SetupAttachment(TrackingOrigin);
+				RightHandController->SetTrackingSource(EControllerHand::Right);
+
+				// Create the IK target for the right hand
+				RightHandIK = CreateDefaultSubobject<USceneComponent>(TEXT("Right Hand IK Target"));
+				if (RightHandIK)
+				{
+					RightHandIK->SetupAttachment(RightHandController);
+					RightHandIK->SetRelativeLocation(FVector(0.0, 0.0, 10.0));
+					RightHandIK->SetRelativeRotation(FRotator(90.0, 0.0, 180.0));
+				}
+			}
+		}
 	}
-
+	
+	// Find and make changes to the character movement component
 	UCharacterMovementComponent* MovementComp = GetCharacterMovement();
-	MovementComp->NetworkSmoothingMode = ENetworkSmoothingMode::Disabled;
-
-	// Create the physics control component
-	PhysicsControlComponent = CreateDefaultSubobject<UPhysicsControlComponent>(TEXT("PhysicsControl"));
-	PhysicsControlComponent->SetupAttachment(CharacterMesh);
-
+	if (MovementComp)
+	{
+		MovementComp->NetworkSmoothingMode = ENetworkSmoothingMode::Disabled;
+	}
+	
 }
 
 // Called when the game starts or when spawned
@@ -64,7 +143,7 @@ void ASimulationCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	DebugNetRoles();
+	//DebugNetRoles();
 }
 
 void ASimulationCharacter::Move(FVector2D MoveInput)
@@ -77,7 +156,21 @@ void ASimulationCharacter::Move(FVector2D MoveInput)
 
 }
 
+USceneComponent* ASimulationCharacter::GetTrackingOrigin() const { return TrackingOrigin; }
+
+UCameraComponent* ASimulationCharacter::GetHMD() const { return HMD; }
+
+UMotionControllerComponent* ASimulationCharacter::GetLeftHandController() const { return LeftHandController; }
+
+UMotionControllerComponent* ASimulationCharacter::GetRightHandController() const { return RightHandController; }
+
 UPhysicsControlComponent* ASimulationCharacter::GetPhysicsControl() const { return PhysicsControlComponent; }
+
+USceneComponent* ASimulationCharacter::GetHeadIK() const { return HeadIK; }
+
+USceneComponent* ASimulationCharacter::GetLeftHandIK() const { return LeftHandIK; }
+
+USceneComponent* ASimulationCharacter::GetRightHandIK() const { return RightHandIK; }
 
 void ASimulationCharacter::DebugNetRoles()
 {
